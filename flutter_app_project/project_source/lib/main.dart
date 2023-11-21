@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home:
-          const MyHomePage(title: 'Flutter App Project: Francesc test at Home'),
+          const MyHomePage(title: 'Flutter App Project: Francesc & Mario test at Home'),
     );
   }
 }
