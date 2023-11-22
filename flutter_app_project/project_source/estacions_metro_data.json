@@ -1,0 +1,2656 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.935",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.224737,
+                    41.442817
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 935,
+                "CODI_GRUP_ESTACIO": 6660935,
+                "NOM_ESTACIO": "La Salut",
+                "PICTO": "L10N",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.525",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.181497,
+                    41.41506
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 525,
+                "CODI_GRUP_ESTACIO": 6660525,
+                "NOM_ESTACIO": "Camp de l'Arpa",
+                "PICTO": "L5",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.533",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.148348,
+                    41.421997
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 533,
+                "CODI_GRUP_ESTACIO": 6660533,
+                "NOM_ESTACIO": "El Coll | La Teixonera",
+                "PICTO": "L5",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.133",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.186811,
+                    41.420696
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 133,
+                "CODI_GRUP_ESTACIO": 6660133,
+                "NOM_ESTACIO": "La Sagrera",
+                "PICTO": "L1L5L9NL10N",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.213",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.167351,
+                    41.390106
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 213,
+                "CODI_GRUP_ESTACIO": 6660213,
+                "NOM_ESTACIO": "Passeig de Gràcia",
+                "PICTO": "L2L3L4",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.136",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.190671,
+                    41.443225
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 136,
+                "CODI_GRUP_ESTACIO": 6660136,
+                "NOM_ESTACIO": "Torras i Bages",
+                "PICTO": "L1",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.901",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.071152,
+                    41.288295
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 901,
+                "CODI_GRUP_ESTACIO": 6660901,
+                "NOM_ESTACIO": "Aeroport T1",
+                "PICTO": "L9S",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.903",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.073113,
+                    41.303823
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 903,
+                "CODI_GRUP_ESTACIO": 6660903,
+                "NOM_ESTACIO": "Aeroport T2",
+                "PICTO": "L9S",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.904",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.073471,
+                    41.311225
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 904,
+                "CODI_GRUP_ESTACIO": 6660904,
+                "NOM_ESTACIO": "Mas Blau",
+                "PICTO": "L9S",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.905",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.087929,
+                    41.316628
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 905,
+                "CODI_GRUP_ESTACIO": 6660905,
+                "NOM_ESTACIO": "Parc Nou",
+                "PICTO": "L9S",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.906",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.093463,
+                    41.32225
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 906,
+                "CODI_GRUP_ESTACIO": 6660906,
+                "NOM_ESTACIO": "Cèntric",
+                "PICTO": "L9S",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.907",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.089927,
+                    41.331993
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 907,
+                "CODI_GRUP_ESTACIO": 6660907,
+                "NOM_ESTACIO": "El Prat Estació",
+                "PICTO": "L9S",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.909",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.103073,
+                    41.329119
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 909,
+                "CODI_GRUP_ESTACIO": 6660909,
+                "NOM_ESTACIO": "Les Moreres",
+                "PICTO": "L9S",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.910",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.111257,
+                    41.333502
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 910,
+                "CODI_GRUP_ESTACIO": 6660910,
+                "NOM_ESTACIO": "Mercabarna",
+                "PICTO": "L9S",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.911",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.127401,
+                    41.341664
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 911,
+                "CODI_GRUP_ESTACIO": 6660911,
+                "NOM_ESTACIO": "Parc Logístic",
+                "PICTO": "L9S",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.912",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.130452,
+                    41.351988
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 912,
+                "CODI_GRUP_ESTACIO": 6660912,
+                "NOM_ESTACIO": "Fira",
+                "PICTO": "L9S",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.913",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.125924,
+                    41.35756
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 913,
+                "CODI_GRUP_ESTACIO": 6660913,
+                "NOM_ESTACIO": "Europa | Fira",
+                "PICTO": "L9S",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.914",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.117993,
+                    41.360894
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 914,
+                "CODI_GRUP_ESTACIO": 6660914,
+                "NOM_ESTACIO": "Can Tries | Gornal",
+                "PICTO": "L9SL10S",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.951",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.133095,
+                    41.323706
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 951,
+                "CODI_GRUP_ESTACIO": 6660951,
+                "NOM_ESTACIO": "ZAL | Riu Vell",
+                "PICTO": "L10S",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.952",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.137071,
+                    41.330159
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 952,
+                "CODI_GRUP_ESTACIO": 6660952,
+                "NOM_ESTACIO": "Ecoparc",
+                "PICTO": "L10S",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.953",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.140657,
+                    41.335983
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 953,
+                "CODI_GRUP_ESTACIO": 6660953,
+                "NOM_ESTACIO": "Port Comercial | La Factoria",
+                "PICTO": "L10S",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.954",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.144964,
+                    41.342976
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 954,
+                "CODI_GRUP_ESTACIO": 6660954,
+                "NOM_ESTACIO": "Zona Franca",
+                "PICTO": "L10S",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.956",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.141804,
+                    41.356161
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 956,
+                "CODI_GRUP_ESTACIO": 6660956,
+                "NOM_ESTACIO": "Foc",
+                "PICTO": "L10S",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.957",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.138229,
+                    41.361099
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 957,
+                "CODI_GRUP_ESTACIO": 6660957,
+                "NOM_ESTACIO": "Foneria",
+                "PICTO": "L10S",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.958",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.132315,
+                    41.363137
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 958,
+                "CODI_GRUP_ESTACIO": 6660958,
+                "NOM_ESTACIO": "Ciutat de la Justícia",
+                "PICTO": "L10S",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.959",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1241,
+                    41.361354
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 959,
+                "CODI_GRUP_ESTACIO": 6660959,
+                "NOM_ESTACIO": "Provençana",
+                "PICTO": "L10S",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.429",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.166512,
+                    41.412416
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 429,
+                "CODI_GRUP_ESTACIO": 6660429,
+                "NOM_ESTACIO": "Alfons X",
+                "PICTO": "L4",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.128",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.181165,
+                    41.392337
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 128,
+                "CODI_GRUP_ESTACIO": 6660128,
+                "NOM_ESTACIO": "Arc de Triomf",
+                "PICTO": "L1",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.223",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.217772,
+                    41.433848
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 223,
+                "CODI_GRUP_ESTACIO": 6660223,
+                "NOM_ESTACIO": "Artigues | Sant Adrià",
+                "PICTO": "L2",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.113",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.102645,
+                    41.358522
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 113,
+                "CODI_GRUP_ESTACIO": 6660113,
+                "NOM_ESTACIO": "Av. Carrilet",
+                "PICTO": "L1",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.219",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.195503,
+                    41.415162
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 219,
+                "CODI_GRUP_ESTACIO": 6660219,
+                "NOM_ESTACIO": "Bac de Roda",
+                "PICTO": "L2",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.516",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.127402,
+                    41.375581
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 516,
+                "CODI_GRUP_ESTACIO": 6660516,
+                "NOM_ESTACIO": "Badal",
+                "PICTO": "L5",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.227",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.244099,
+                    41.449053
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 227,
+                "CODI_GRUP_ESTACIO": 6660227,
+                "NOM_ESTACIO": "Badalona Pompeu Fabra",
+                "PICTO": "L2",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.422",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.184787,
+                    41.381811
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 422,
+                "CODI_GRUP_ESTACIO": 6660422,
+                "NOM_ESTACIO": "Barceloneta",
+                "PICTO": "L4",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.138",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.199563,
+                    41.449936
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 138,
+                "CODI_GRUP_ESTACIO": 6660138,
+                "NOM_ESTACIO": "Baró de Viver",
+                "PICTO": "L1",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.112",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.110918,
+                    41.350974
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 112,
+                "CODI_GRUP_ESTACIO": 6660112,
+                "NOM_ESTACIO": "Bellvitge",
+                "PICTO": "L1",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.414",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.210301,
+                    41.419836
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 414,
+                "CODI_GRUP_ESTACIO": 6660414,
+                "NOM_ESTACIO": "Besòs",
+                "PICTO": "L4",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.415",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.216082,
+                    41.415099
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 415,
+                "CODI_GRUP_ESTACIO": 6660415,
+                "NOM_ESTACIO": "Besòs Mar",
+                "PICTO": "L4",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.420",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.192012,
+                    41.395108
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 420,
+                "CODI_GRUP_ESTACIO": 6660420,
+                "NOM_ESTACIO": "Bogatell",
+                "PICTO": "L4",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.933",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.20524,
+                    41.436163
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 933,
+                "CODI_GRUP_ESTACIO": 6660933,
+                "NOM_ESTACIO": "Bon Pastor",
+                "PICTO": "L9NL10N",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.512",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.091506,
+                    41.366571
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 512,
+                "CODI_GRUP_ESTACIO": 6660512,
+                "NOM_ESTACIO": "Can Boixeres",
+                "PICTO": "L5",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.1140",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.173059,
+                    41.462413
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 1140,
+                "CODI_GRUP_ESTACIO": 6661140,
+                "NOM_ESTACIO": "Can Cuiàs",
+                "PICTO": "L11",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.940",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.210027,
+                    41.443986
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 940,
+                "CODI_GRUP_ESTACIO": 6660940,
+                "NOM_ESTACIO": "Can Peixauet",
+                "PICTO": "L9N",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.115",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.102755,
+                    41.367693
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 115,
+                "CODI_GRUP_ESTACIO": 6660115,
+                "NOM_ESTACIO": "Can Serra",
+                "PICTO": "L1",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.513",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.099445,
+                    41.371279
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 513,
+                "CODI_GRUP_ESTACIO": 6660513,
+                "NOM_ESTACIO": "Can Vidalet",
+                "PICTO": "L5",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.945",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.198569,
+                    41.456666
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 945,
+                "CODI_GRUP_ESTACIO": 6660945,
+                "NOM_ESTACIO": "Can Zam",
+                "PICTO": "L9N",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.337",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.166388,
+                    41.441754
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 337,
+                "CODI_GRUP_ESTACIO": 6660337,
+                "NOM_ESTACIO": "Canyelles",
+                "PICTO": "L3",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.1137",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.18484,
+                    41.451278
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 1137,
+                "CODI_GRUP_ESTACIO": 6661137,
+                "NOM_ESTACIO": "Casa de l'Aigua",
+                "PICTO": "L11",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.126",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.169717,
+                    41.387713
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 126,
+                "CODI_GRUP_ESTACIO": 6660126,
+                "NOM_ESTACIO": "Catalunya",
+                "PICTO": "L1L3",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.421",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.192963,
+                    41.38664
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 421,
+                "CODI_GRUP_ESTACIO": 6660421,
+                "NOM_ESTACIO": "Ciutadella | Vila Olímpica",
+                "PICTO": "L4",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.1139",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.17465,
+                    41.460808
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 1139,
+                "CODI_GRUP_ESTACIO": 6661139,
+                "NOM_ESTACIO": "Ciutat Meridiana",
+                "PICTO": "L11",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.131",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.186978,
+                    41.410512
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 131,
+                "CODI_GRUP_ESTACIO": 6660131,
+                "NOM_ESTACIO": "Clot",
+                "PICTO": "L1L2",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.515",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.118526,
+                    41.37584
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 515,
+                "CODI_GRUP_ESTACIO": 6660515,
+                "NOM_ESTACIO": "Collblanc",
+                "PICTO": "L5L9SL10S",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.527",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.181186,
+                    41.42344
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 527,
+                "CODI_GRUP_ESTACIO": 6660527,
+                "NOM_ESTACIO": "Congrés",
+                "PICTO": "L5",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.509",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.070428,
+                    41.35729
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 509,
+                "CODI_GRUP_ESTACIO": 6660509,
+                "NOM_ESTACIO": "Cornellà Centre",
+                "PICTO": "L5",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.328",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.160444,
+                    41.395677
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 328,
+                "CODI_GRUP_ESTACIO": 6660328,
+                "NOM_ESTACIO": "Diagonal",
+                "PICTO": "L3L5",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.324",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.175664,
+                    41.376538
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 324,
+                "CODI_GRUP_ESTACIO": 6660324,
+                "NOM_ESTACIO": "Drassanes",
+                "PICTO": "L3",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.532",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.155099,
+                    41.42445
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 532,
+                "CODI_GRUP_ESTACIO": 6660532,
+                "NOM_ESTACIO": "El Carmel",
+                "PICTO": "L5",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.416",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.216548,
+                    41.411686
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 416,
+                "CODI_GRUP_ESTACIO": 6660416,
+                "NOM_ESTACIO": "El Maresme | Fòrum",
+                "PICTO": "L4",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.217",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1827,
+                    41.407236
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 217,
+                "CODI_GRUP_ESTACIO": 6660217,
+                "NOM_ESTACIO": "Encants",
+                "PICTO": "L2",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.519",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.145619,
+                    41.384467
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 519,
+                "CODI_GRUP_ESTACIO": 6660519,
+                "NOM_ESTACIO": "Entença",
+                "PICTO": "L5",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.943",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.212177,
+                    41.454797
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 943,
+                "CODI_GRUP_ESTACIO": 6660943,
+                "NOM_ESTACIO": "Església Major",
+                "PICTO": "L9N",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.122",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.149387,
+                    41.375459
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 122,
+                "CODI_GRUP_ESTACIO": 6660122,
+                "NOM_ESTACIO": "Espanya",
+                "PICTO": "L1L3",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.134",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.183661,
+                    41.429633
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 134,
+                "CODI_GRUP_ESTACIO": 6660134,
+                "NOM_ESTACIO": "Fabra i Puig",
+                "PICTO": "L1",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.116",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.110027,
+                    41.368316
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 116,
+                "CODI_GRUP_ESTACIO": 6660116,
+                "NOM_ESTACIO": "Florida",
+                "PICTO": "L1",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.140",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.218538,
+                    41.451687
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 140,
+                "CODI_GRUP_ESTACIO": 6660140,
+                "NOM_ESTACIO": "Fondo",
+                "PICTO": "L1L9N",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.329",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.153022,
+                    41.402009
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 329,
+                "CODI_GRUP_ESTACIO": 6660329,
+                "NOM_ESTACIO": "Fontana",
+                "PICTO": "L3",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.510",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.079273,
+                    41.357995
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 510,
+                "CODI_GRUP_ESTACIO": 6660510,
+                "NOM_ESTACIO": "Gavarra",
+                "PICTO": "L5",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.426",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.170825,
+                    41.39492
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 426,
+                "CODI_GRUP_ESTACIO": 6660426,
+                "NOM_ESTACIO": "Girona",
+                "PICTO": "L4",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.130",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.187537,
+                    41.402277
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 130,
+                "CODI_GRUP_ESTACIO": 6660130,
+                "NOM_ESTACIO": "Glòries",
+                "PICTO": "L1",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.225",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.233807,
+                    41.44026
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 225,
+                "CODI_GRUP_ESTACIO": 6660225,
+                "NOM_ESTACIO": "Gorg",
+                "PICTO": "L2L10N",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.430",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.173989,
+                    41.415962
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 430,
+                "CODI_GRUP_ESTACIO": 6660430,
+                "NOM_ESTACIO": "Guinardó | Hospital de Sant Pau",
+                "PICTO": "L4",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.531",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.159974,
+                    41.429693
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 531,
+                "CODI_GRUP_ESTACIO": 6660531,
+                "NOM_ESTACIO": "Horta",
+                "PICTO": "L5",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.520",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.151081,
+                    41.388608
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 520,
+                "CODI_GRUP_ESTACIO": 6660520,
+                "NOM_ESTACIO": "Hospital Clínic",
+                "PICTO": "L5",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.111",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.107242,
+                    41.344677
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 111,
+                "CODI_GRUP_ESTACIO": 6660111,
+                "NOM_ESTACIO": "Hospital de Bellvitge",
+                "PICTO": "L1",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.121",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.143291,
+                    41.375254
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 121,
+                "CODI_GRUP_ESTACIO": 6660121,
+                "NOM_ESTACIO": "Hostafrancs",
+                "PICTO": "L1",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.423",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.178531,
+                    41.384126
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 423,
+                "CODI_GRUP_ESTACIO": 6660423,
+                "NOM_ESTACIO": "Jaume I",
+                "PICTO": "L4",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.428",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.163225,
+                    41.406427
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 428,
+                "CODI_GRUP_ESTACIO": 6660428,
+                "NOM_ESTACIO": "Joanic",
+                "PICTO": "L4",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.221",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.205878,
+                    41.423251
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 221,
+                "CODI_GRUP_ESTACIO": 6660221,
+                "NOM_ESTACIO": "La Pau",
+                "PICTO": "L2L4",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.317",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.130871,
+                    41.38412
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 317,
+                "CODI_GRUP_ESTACIO": 6660317,
+                "NOM_ESTACIO": "Les Corts",
+                "PICTO": "L3",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.330",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.150407,
+                    41.405738
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 330,
+                "CODI_GRUP_ESTACIO": 6660330,
+                "NOM_ESTACIO": "Lesseps",
+                "PICTO": "L3",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.325",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.17303,
+                    41.381445
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 325,
+                "CODI_GRUP_ESTACIO": 6660325,
+                "NOM_ESTACIO": "Liceu",
+                "PICTO": "L3",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.419",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.197712,
+                    41.399425
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 419,
+                "CODI_GRUP_ESTACIO": 6660419,
+                "NOM_ESTACIO": "Llacuna",
+                "PICTO": "L4",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.934",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.216906,
+                    41.44136
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 934,
+                "CODI_GRUP_ESTACIO": 6660934,
+                "NOM_ESTACIO": "Llefià",
+                "PICTO": "L10N",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.432",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.173343,
+                    41.436985
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 432,
+                "CODI_GRUP_ESTACIO": 6660432,
+                "NOM_ESTACIO": "Llucmajor",
+                "PICTO": "L4",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.431",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.177413,
+                    41.424129
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 431,
+                "CODI_GRUP_ESTACIO": 6660431,
+                "NOM_ESTACIO": "Maragall",
+                "PICTO": "L4L5",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.316",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.125791,
+                    41.387816
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 316,
+                "CODI_GRUP_ESTACIO": 6660316,
+                "NOM_ESTACIO": "Maria Cristina",
+                "PICTO": "L3",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.129",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.185801,
+                    41.394725
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 129,
+                "CODI_GRUP_ESTACIO": 6660129,
+                "NOM_ESTACIO": "Marina",
+                "PICTO": "L1",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.119",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.133536,
+                    41.373003
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 119,
+                "CODI_GRUP_ESTACIO": 6660119,
+                "NOM_ESTACIO": "Mercat Nou",
+                "PICTO": "L1",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.9902",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.163269,
+                    41.368956
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 9902,
+                "CODI_GRUP_ESTACIO": 6669902,
+                "NOM_ESTACIO": "Parc de Montjuïc",
+                "PICTO": "FM",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.334",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.145039,
+                    41.43062
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 334,
+                "CODI_GRUP_ESTACIO": 6660334,
+                "NOM_ESTACIO": "Montbau",
+                "PICTO": "L3",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.215",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.179462,
+                    41.400524
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 215,
+                "CODI_GRUP_ESTACIO": 6660215,
+                "NOM_ESTACIO": "Monumental",
+                "PICTO": "L2",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.335",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.148472,
+                    41.435645
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 335,
+                "CODI_GRUP_ESTACIO": 6660335,
+                "NOM_ESTACIO": "Mundet",
+                "PICTO": "L3",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.132",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.187057,
+                    41.416187
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 132,
+                "CODI_GRUP_ESTACIO": 6660132,
+                "NOM_ESTACIO": "Navas",
+                "PICTO": "L1",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.932",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.19361,
+                    41.429617
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 932,
+                "CODI_GRUP_ESTACIO": 6660932,
+                "NOM_ESTACIO": "Onze de Setembre",
+                "PICTO": "L9NL10N",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.315",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.118538,
+                    41.38598
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 315,
+                "CODI_GRUP_ESTACIO": 6660315,
+                "NOM_ESTACIO": "Palau Reial",
+                "PICTO": "L3",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.210",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.169029,
+                    41.374581
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 210,
+                "CODI_GRUP_ESTACIO": 6660210,
+                "NOM_ESTACIO": "Paral·lel",
+                "PICTO": "L2L3FM",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.332",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.140972,
+                    41.418279
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 332,
+                "CODI_GRUP_ESTACIO": 6660332,
+                "NOM_ESTACIO": "Penitents",
+                "PICTO": "L3",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.226",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.237959,
+                    41.443905
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 226,
+                "CODI_GRUP_ESTACIO": 6660226,
+                "NOM_ESTACIO": "Pep Ventura",
+                "PICTO": "L2",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.120",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.135576,
+                    41.375532
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 120,
+                "CODI_GRUP_ESTACIO": 6660120,
+                "NOM_ESTACIO": "Plaça de Sants",
+                "PICTO": "L1L5",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.318",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.135884,
+                    41.381922
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 318,
+                "CODI_GRUP_ESTACIO": 6660318,
+                "NOM_ESTACIO": "Plaça del Centre",
+                "PICTO": "L3",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.418",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.203371,
+                    41.403716
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 418,
+                "CODI_GRUP_ESTACIO": 6660418,
+                "NOM_ESTACIO": "Poblenou",
+                "PICTO": "L4",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.322",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.160245,
+                    41.374996
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 322,
+                "CODI_GRUP_ESTACIO": 6660322,
+                "NOM_ESTACIO": "Poble Sec",
+                "PICTO": "L3",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.514",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.107209,
+                    41.373838
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 514,
+                "CODI_GRUP_ESTACIO": 6660514,
+                "NOM_ESTACIO": "Pubilla Cases",
+                "PICTO": "L5",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.114",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.099749,
+                    41.36409
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 114,
+                "CODI_GRUP_ESTACIO": 6660114,
+                "NOM_ESTACIO": "Rambla Just Oliveras",
+                "PICTO": "L1",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.123",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.154562,
+                    41.379232
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 123,
+                "CODI_GRUP_ESTACIO": 6660123,
+                "NOM_ESTACIO": "Rocafort",
+                "PICTO": "L1",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.338",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.176098,
+                    41.44767
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 338,
+                "CODI_GRUP_ESTACIO": 6660338,
+                "NOM_ESTACIO": "Roquetes",
+                "PICTO": "L3",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.216",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.17449,
+                    41.404419
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 216,
+                "CODI_GRUP_ESTACIO": 6660216,
+                "NOM_ESTACIO": "Sagrada Família",
+                "PICTO": "L2L5",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.135",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.191188,
+                    41.43661
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 135,
+                "CODI_GRUP_ESTACIO": 6660135,
+                "NOM_ESTACIO": "Sant Andreu",
+                "PICTO": "L1",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.211",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.163241,
+                    41.379833
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 211,
+                "CODI_GRUP_ESTACIO": 6660211,
+                "NOM_ESTACIO": "Sant Antoni",
+                "PICTO": "L2",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.511",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.084393,
+                    41.363381
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 511,
+                "CODI_GRUP_ESTACIO": 6660511,
+                "NOM_ESTACIO": "Sant Ildefons",
+                "PICTO": "L5",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.220",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.200724,
+                    41.419064
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 220,
+                "CODI_GRUP_ESTACIO": 6660220,
+                "NOM_ESTACIO": "Sant Martí",
+                "PICTO": "L2",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.524",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.176016,
+                    41.410753
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 524,
+                "CODI_GRUP_ESTACIO": 6660524,
+                "NOM_ESTACIO": "Sant Pau | Dos de Maig",
+                "PICTO": "L5",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.224",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.228606,
+                    41.435831
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 224,
+                "CODI_GRUP_ESTACIO": 6660224,
+                "NOM_ESTACIO": "Sant Roc",
+                "PICTO": "L2",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.139",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.207969,
+                    41.451067
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 139,
+                "CODI_GRUP_ESTACIO": 6660139,
+                "NOM_ESTACIO": "Santa Coloma",
+                "PICTO": "L1",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.118",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.128617,
+                    41.368816
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 118,
+                "CODI_GRUP_ESTACIO": 6660118,
+                "NOM_ESTACIO": "Santa Eulàlia",
+                "PICTO": "L1",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.941",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.215809,
+                    41.44685
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 941,
+                "CODI_GRUP_ESTACIO": 6660941,
+                "NOM_ESTACIO": "Santa Rosa",
+                "PICTO": "L9N",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.417",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.209122,
+                    41.408002
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 417,
+                "CODI_GRUP_ESTACIO": 6660417,
+                "NOM_ESTACIO": "Selva de Mar",
+                "PICTO": "L4",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.944",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.205429,
+                    41.459414
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 944,
+                "CODI_GRUP_ESTACIO": 6660944,
+                "NOM_ESTACIO": "Singuerlín",
+                "PICTO": "L9N",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.320",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.145336,
+                    41.378493
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 320,
+                "CODI_GRUP_ESTACIO": 6660320,
+                "NOM_ESTACIO": "Tarragona",
+                "PICTO": "L3",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.214",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.175559,
+                    41.394887
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 214,
+                "CODI_GRUP_ESTACIO": 6660214,
+                "NOM_ESTACIO": "Tetuan",
+                "PICTO": "L2",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.137",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.193837,
+                    41.448956
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 137,
+                "CODI_GRUP_ESTACIO": 6660137,
+                "NOM_ESTACIO": "Trinitat Vella",
+                "PICTO": "L1",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.117",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.116089,
+                    41.368261
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 117,
+                "CODI_GRUP_ESTACIO": 6660117,
+                "NOM_ESTACIO": "Torrassa",
+                "PICTO": "L1L9SL10S",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.339",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.182855,
+                    41.449762
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 339,
+                "CODI_GRUP_ESTACIO": 6660339,
+                "NOM_ESTACIO": "Trinitat Nova",
+                "PICTO": "L3L4L11",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.125",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.164059,
+                    41.385588
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 125,
+                "CODI_GRUP_ESTACIO": 6660125,
+                "NOM_ESTACIO": "Universitat",
+                "PICTO": "L1L2",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.124",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.158891,
+                    41.382487
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 124,
+                "CODI_GRUP_ESTACIO": 6660124,
+                "NOM_ESTACIO": "Urgell",
+                "PICTO": "L1",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.127",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.173668,
+                    41.388847
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 127,
+                "CODI_GRUP_ESTACIO": 6660127,
+                "NOM_ESTACIO": "Urquinaona",
+                "PICTO": "L1L4",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.333",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.142515,
+                    41.425123
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 333,
+                "CODI_GRUP_ESTACIO": 6660333,
+                "NOM_ESTACIO": "Vall d'Hebron",
+                "PICTO": "L3L5",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.331",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.144337,
+                    41.411975
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 331,
+                "CODI_GRUP_ESTACIO": 6660331,
+                "NOM_ESTACIO": "Vallcarca",
+                "PICTO": "L3",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.336",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.156878,
+                    41.437996
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 336,
+                "CODI_GRUP_ESTACIO": 6660336,
+                "NOM_ESTACIO": "Valldaura",
+                "PICTO": "L3",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.222",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.209883,
+                    41.430004
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 222,
+                "CODI_GRUP_ESTACIO": 6660222,
+                "NOM_ESTACIO": "Verneda",
+                "PICTO": "L2",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.433",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.17855,
+                    41.44373
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 433,
+                "CODI_GRUP_ESTACIO": 6660433,
+                "NOM_ESTACIO": "Via Júlia",
+                "PICTO": "L4",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.530",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.167619,
+                    41.430465
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 530,
+                "CODI_GRUP_ESTACIO": 6660530,
+                "NOM_ESTACIO": "Vilapicina",
+                "PICTO": "L5",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.529",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.174913,
+                    41.429703
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 529,
+                "CODI_GRUP_ESTACIO": 6660529,
+                "NOM_ESTACIO": "Virrei Amat",
+                "PICTO": "L5",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.314",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.111389,
+                    41.384003
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 314,
+                "CODI_GRUP_ESTACIO": 6660314,
+                "NOM_ESTACIO": "Zona Universitària",
+                "PICTO": "L3L9S",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.319",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.141892,
+                    41.380961
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 319,
+                "CODI_GRUP_ESTACIO": 6660319,
+                "NOM_ESTACIO": "Sants Estació",
+                "PICTO": "L3L5",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.1138",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.179884,
+                    41.459196
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 1138,
+                "CODI_GRUP_ESTACIO": 6661138,
+                "NOM_ESTACIO": "Torre Baró | Vallbona",
+                "PICTO": "L11",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.427",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.168313,
+                    41.399968
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 427,
+                "CODI_GRUP_ESTACIO": 6660427,
+                "NOM_ESTACIO": "Verdaguer",
+                "PICTO": "L4L5",
+                "DATA": "2023-11-21Z"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS.555",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.112027,
+                    41.375898
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO": 555,
+                "CODI_GRUP_ESTACIO": 6660555,
+                "NOM_ESTACIO": "Ernest Lluch",
+                "PICTO": "L5",
+                "DATA": "2023-11-21Z"
+            }
+        }
+    ],
+    "totalFeatures": 139,
+    "numberMatched": 139,
+    "numberReturned": 139,
+    "timeStamp": "2023-11-22T08:33:12.085Z",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+        }
+    }
+}
