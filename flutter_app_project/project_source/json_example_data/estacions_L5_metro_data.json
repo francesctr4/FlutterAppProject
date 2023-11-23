@@ -1,0 +1,1068 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "id": "ESTACIONS_LINIA.fid--3674e9de_18bfcf58aed_7921",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.079269,
+                    41.357993
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO_LINIA": 513,
+                "CODI_ESTACIO_LINIA": 510,
+                "ID_GRUP_ESTACIO": 510,
+                "CODI_GRUP_ESTACIO": 6660510,
+                "ID_ESTACIO": 73,
+                "CODI_ESTACIO": 510,
+                "NOM_ESTACIO": "Gavarra",
+                "ORDRE_ESTACIO": 2,
+                "ID_LINIA": 3,
+                "CODI_LINIA": 5,
+                "NOM_LINIA": "L5",
+                "ORDRE_LINIA": 5,
+                "ID_TIPUS_SERVEI": 1,
+                "DESC_SERVEI": "Cornellà Centre - Vall d'Hebron",
+                "ORIGEN_SERVEI": "Cornellà Centre",
+                "DESTI_SERVEI": "Vall d'Hebron",
+                "ID_TIPUS_ACCESSIBILITAT": 1,
+                "NOM_TIPUS_ACCESSIBILITAT": "Accessible",
+                "ID_TIPUS_ESTAT": 1,
+                "NOM_TIPUS_ESTAT": "Operatiu",
+                "DATA_INAUGURACIO": "1983-12-22Z",
+                "DATA": "2023-11-22Z",
+                "COLOR_LINIA": "005A97",
+                "PICTO": "L5",
+                "PICTO_GRUP": "L5"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS_LINIA.fid--3674e9de_18bfcf58aed_7922",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.084393,
+                    41.363381
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO_LINIA": 514,
+                "CODI_ESTACIO_LINIA": 511,
+                "ID_GRUP_ESTACIO": 511,
+                "CODI_GRUP_ESTACIO": 6660511,
+                "ID_ESTACIO": 123,
+                "CODI_ESTACIO": 511,
+                "NOM_ESTACIO": "Sant Ildefons",
+                "ORDRE_ESTACIO": 3,
+                "ID_LINIA": 3,
+                "CODI_LINIA": 5,
+                "NOM_LINIA": "L5",
+                "ORDRE_LINIA": 5,
+                "ID_TIPUS_SERVEI": 1,
+                "DESC_SERVEI": "Cornellà Centre - Vall d'Hebron",
+                "ORIGEN_SERVEI": "Cornellà Centre",
+                "DESTI_SERVEI": "Vall d'Hebron",
+                "ID_TIPUS_ACCESSIBILITAT": 1,
+                "NOM_TIPUS_ACCESSIBILITAT": "Accessible",
+                "ID_TIPUS_ESTAT": 1,
+                "NOM_TIPUS_ESTAT": "Operatiu",
+                "DATA_INAUGURACIO": "1976-11-22Z",
+                "DATA": "2023-11-22Z",
+                "COLOR_LINIA": "005A97",
+                "PICTO": "L5",
+                "PICTO_GRUP": "L5"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS_LINIA.fid--3674e9de_18bfcf58aed_7923",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.091506,
+                    41.366571
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO_LINIA": 515,
+                "CODI_ESTACIO_LINIA": 512,
+                "ID_GRUP_ESTACIO": 512,
+                "CODI_GRUP_ESTACIO": 6660512,
+                "ID_ESTACIO": 74,
+                "CODI_ESTACIO": 512,
+                "NOM_ESTACIO": "Can Boixeres",
+                "ORDRE_ESTACIO": 4,
+                "ID_LINIA": 3,
+                "CODI_LINIA": 5,
+                "NOM_LINIA": "L5",
+                "ORDRE_LINIA": 5,
+                "ID_TIPUS_SERVEI": 1,
+                "DESC_SERVEI": "Cornellà Centre - Vall d'Hebron",
+                "ORIGEN_SERVEI": "Cornellà Centre",
+                "DESTI_SERVEI": "Vall d'Hebron",
+                "ID_TIPUS_ACCESSIBILITAT": 1,
+                "NOM_TIPUS_ACCESSIBILITAT": "Accessible",
+                "ID_TIPUS_ESTAT": 1,
+                "NOM_TIPUS_ESTAT": "Operatiu",
+                "DATA_INAUGURACIO": "1976-11-22Z",
+                "DATA": "2023-11-22Z",
+                "COLOR_LINIA": "005A97",
+                "PICTO": "L5",
+                "PICTO_GRUP": "L5"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS_LINIA.fid--3674e9de_18bfcf58aed_7924",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.099445,
+                    41.371279
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO_LINIA": 516,
+                "CODI_ESTACIO_LINIA": 513,
+                "ID_GRUP_ESTACIO": 513,
+                "CODI_GRUP_ESTACIO": 6660513,
+                "ID_ESTACIO": 25,
+                "CODI_ESTACIO": 513,
+                "NOM_ESTACIO": "Can Vidalet",
+                "ORDRE_ESTACIO": 5,
+                "ID_LINIA": 3,
+                "CODI_LINIA": 5,
+                "NOM_LINIA": "L5",
+                "ORDRE_LINIA": 5,
+                "ID_TIPUS_SERVEI": 1,
+                "DESC_SERVEI": "Cornellà Centre - Vall d'Hebron",
+                "ORIGEN_SERVEI": "Cornellà Centre",
+                "DESTI_SERVEI": "Vall d'Hebron",
+                "ID_TIPUS_ACCESSIBILITAT": 1,
+                "NOM_TIPUS_ACCESSIBILITAT": "Accessible",
+                "ID_TIPUS_ESTAT": 1,
+                "NOM_TIPUS_ESTAT": "Operatiu",
+                "DATA_INAUGURACIO": "1976-11-22Z",
+                "DATA": "2023-11-22Z",
+                "COLOR_LINIA": "005A97",
+                "PICTO": "L5",
+                "PICTO_GRUP": "L5"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS_LINIA.fid--3674e9de_18bfcf58aed_7925",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.107209,
+                    41.373838
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO_LINIA": 517,
+                "CODI_ESTACIO_LINIA": 514,
+                "ID_GRUP_ESTACIO": 514,
+                "CODI_GRUP_ESTACIO": 6660514,
+                "ID_ESTACIO": 75,
+                "CODI_ESTACIO": 514,
+                "NOM_ESTACIO": "Pubilla Cases",
+                "ORDRE_ESTACIO": 6,
+                "ID_LINIA": 3,
+                "CODI_LINIA": 5,
+                "NOM_LINIA": "L5",
+                "ORDRE_LINIA": 5,
+                "ID_TIPUS_SERVEI": 1,
+                "DESC_SERVEI": "Cornellà Centre - Vall d'Hebron",
+                "ORIGEN_SERVEI": "Cornellà Centre",
+                "DESTI_SERVEI": "Vall d'Hebron",
+                "ID_TIPUS_ACCESSIBILITAT": 1,
+                "NOM_TIPUS_ACCESSIBILITAT": "Accessible",
+                "ID_TIPUS_ESTAT": 1,
+                "NOM_TIPUS_ESTAT": "Operatiu",
+                "DATA_INAUGURACIO": "1973-02-04Z",
+                "DATA": "2023-11-22Z",
+                "COLOR_LINIA": "005A97",
+                "PICTO": "L5",
+                "PICTO_GRUP": "L5"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS_LINIA.fid--3674e9de_18bfcf58aed_7926",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.119195,
+                    41.375744
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO_LINIA": 519,
+                "CODI_ESTACIO_LINIA": 515,
+                "ID_GRUP_ESTACIO": 515,
+                "CODI_GRUP_ESTACIO": 6660515,
+                "ID_ESTACIO": 26,
+                "CODI_ESTACIO": 515,
+                "NOM_ESTACIO": "Collblanc",
+                "ORDRE_ESTACIO": 8,
+                "ID_LINIA": 3,
+                "CODI_LINIA": 5,
+                "NOM_LINIA": "L5",
+                "ORDRE_LINIA": 5,
+                "ID_TIPUS_SERVEI": 1,
+                "DESC_SERVEI": "Cornellà Centre - Vall d'Hebron",
+                "ORIGEN_SERVEI": "Cornellà Centre",
+                "DESTI_SERVEI": "Vall d'Hebron",
+                "ID_TIPUS_ACCESSIBILITAT": 1,
+                "NOM_TIPUS_ACCESSIBILITAT": "Accessible",
+                "ID_TIPUS_ESTAT": 1,
+                "NOM_TIPUS_ESTAT": "Operatiu",
+                "DATA_INAUGURACIO": "1969-11-29Z",
+                "DATA": "2023-11-22Z",
+                "COLOR_LINIA": "005A97",
+                "PICTO": "L5",
+                "PICTO_GRUP": "L5L9SL10S"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS_LINIA.fid--3674e9de_18bfcf58aed_7927",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.127402,
+                    41.375581
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO_LINIA": 520,
+                "CODI_ESTACIO_LINIA": 516,
+                "ID_GRUP_ESTACIO": 516,
+                "CODI_GRUP_ESTACIO": 6660516,
+                "ID_ESTACIO": 76,
+                "CODI_ESTACIO": 516,
+                "NOM_ESTACIO": "Badal",
+                "ORDRE_ESTACIO": 9,
+                "ID_LINIA": 3,
+                "CODI_LINIA": 5,
+                "NOM_LINIA": "L5",
+                "ORDRE_LINIA": 5,
+                "ID_TIPUS_SERVEI": 1,
+                "DESC_SERVEI": "Cornellà Centre - Vall d'Hebron",
+                "ORIGEN_SERVEI": "Cornellà Centre",
+                "DESTI_SERVEI": "Vall d'Hebron",
+                "ID_TIPUS_ACCESSIBILITAT": 1,
+                "NOM_TIPUS_ACCESSIBILITAT": "Accessible",
+                "ID_TIPUS_ESTAT": 1,
+                "NOM_TIPUS_ESTAT": "Operatiu",
+                "DATA_INAUGURACIO": "1969-11-29Z",
+                "DATA": "2023-11-22Z",
+                "COLOR_LINIA": "005A97",
+                "PICTO": "L5",
+                "PICTO_GRUP": "L5"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS_LINIA.fid--3674e9de_18bfcf58aed_7928",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.135159,
+                    41.375728
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO_LINIA": 521,
+                "CODI_ESTACIO_LINIA": 517,
+                "ID_GRUP_ESTACIO": 120,
+                "CODI_GRUP_ESTACIO": 6660120,
+                "ID_ESTACIO": 6,
+                "CODI_ESTACIO": 517,
+                "NOM_ESTACIO": "Plaça de Sants",
+                "ORDRE_ESTACIO": 10,
+                "ID_LINIA": 3,
+                "CODI_LINIA": 5,
+                "NOM_LINIA": "L5",
+                "ORDRE_LINIA": 5,
+                "ID_TIPUS_SERVEI": 1,
+                "DESC_SERVEI": "Cornellà Centre - Vall d'Hebron",
+                "ORIGEN_SERVEI": "Cornellà Centre",
+                "DESTI_SERVEI": "Vall d'Hebron",
+                "ID_TIPUS_ACCESSIBILITAT": 3,
+                "NOM_TIPUS_ACCESSIBILITAT": "No accessible",
+                "ID_TIPUS_ESTAT": 1,
+                "NOM_TIPUS_ESTAT": "Operatiu",
+                "DATA_INAUGURACIO": "1969-11-29Z",
+                "DATA": "2023-11-22Z",
+                "COLOR_LINIA": "005A97",
+                "PICTO": "L5",
+                "PICTO_GRUP": "L1L5"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS_LINIA.fid--3674e9de_18bfcf58aed_7929",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.140398,
+                    41.379956
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO_LINIA": 522,
+                "CODI_ESTACIO_LINIA": 518,
+                "ID_GRUP_ESTACIO": 319,
+                "CODI_GRUP_ESTACIO": 6660319,
+                "ID_ESTACIO": 77,
+                "CODI_ESTACIO": 518,
+                "NOM_ESTACIO": "Sants Estació",
+                "ORDRE_ESTACIO": 11,
+                "ID_LINIA": 3,
+                "CODI_LINIA": 5,
+                "NOM_LINIA": "L5",
+                "ORDRE_LINIA": 5,
+                "ID_TIPUS_SERVEI": 1,
+                "DESC_SERVEI": "Cornellà Centre - Vall d'Hebron",
+                "ORIGEN_SERVEI": "Cornellà Centre",
+                "DESTI_SERVEI": "Vall d'Hebron",
+                "ID_TIPUS_ACCESSIBILITAT": 1,
+                "NOM_TIPUS_ACCESSIBILITAT": "Accessible",
+                "ID_TIPUS_ESTAT": 1,
+                "NOM_TIPUS_ESTAT": "Operatiu",
+                "DATA_INAUGURACIO": "1969-11-29Z",
+                "DATA": "2023-11-22Z",
+                "COLOR_LINIA": "005A97",
+                "PICTO": "L5",
+                "PICTO_GRUP": "L3L5"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS_LINIA.fid--3674e9de_18bfcf58aed_792a",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.145619,
+                    41.384467
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO_LINIA": 523,
+                "CODI_ESTACIO_LINIA": 519,
+                "ID_GRUP_ESTACIO": 519,
+                "CODI_GRUP_ESTACIO": 6660519,
+                "ID_ESTACIO": 27,
+                "CODI_ESTACIO": 519,
+                "NOM_ESTACIO": "Entença",
+                "ORDRE_ESTACIO": 12,
+                "ID_LINIA": 3,
+                "CODI_LINIA": 5,
+                "NOM_LINIA": "L5",
+                "ORDRE_LINIA": 5,
+                "ID_TIPUS_SERVEI": 1,
+                "DESC_SERVEI": "Cornellà Centre - Vall d'Hebron",
+                "ORIGEN_SERVEI": "Cornellà Centre",
+                "DESTI_SERVEI": "Vall d'Hebron",
+                "ID_TIPUS_ACCESSIBILITAT": 1,
+                "NOM_TIPUS_ACCESSIBILITAT": "Accessible",
+                "ID_TIPUS_ESTAT": 1,
+                "NOM_TIPUS_ESTAT": "Operatiu",
+                "DATA_INAUGURACIO": "1969-11-29Z",
+                "DATA": "2023-11-22Z",
+                "COLOR_LINIA": "005A97",
+                "PICTO": "L5",
+                "PICTO_GRUP": "L5"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS_LINIA.fid--3674e9de_18bfcf58aed_792b",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.15883,
+                    41.394435
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO_LINIA": 525,
+                "CODI_ESTACIO_LINIA": 521,
+                "ID_GRUP_ESTACIO": 328,
+                "CODI_GRUP_ESTACIO": 6660328,
+                "ID_ESTACIO": 28,
+                "CODI_ESTACIO": 521,
+                "NOM_ESTACIO": "Diagonal",
+                "ORDRE_ESTACIO": 14,
+                "ID_LINIA": 3,
+                "CODI_LINIA": 5,
+                "NOM_LINIA": "L5",
+                "ORDRE_LINIA": 5,
+                "ID_TIPUS_SERVEI": 1,
+                "DESC_SERVEI": "Cornellà Centre - Vall d'Hebron",
+                "ORIGEN_SERVEI": "Cornellà Centre",
+                "DESTI_SERVEI": "Vall d'Hebron",
+                "ID_TIPUS_ACCESSIBILITAT": 1,
+                "NOM_TIPUS_ACCESSIBILITAT": "Accessible",
+                "ID_TIPUS_ESTAT": 1,
+                "NOM_TIPUS_ESTAT": "Operatiu",
+                "DATA_INAUGURACIO": "1969-11-29Z",
+                "DATA": "2023-11-22Z",
+                "COLOR_LINIA": "005A97",
+                "PICTO": "L5",
+                "PICTO_GRUP": "L3L5"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS_LINIA.fid--3674e9de_18bfcf58aed_792c",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.167089,
+                    41.398952
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO_LINIA": 526,
+                "CODI_ESTACIO_LINIA": 522,
+                "ID_GRUP_ESTACIO": 427,
+                "CODI_GRUP_ESTACIO": 6660427,
+                "ID_ESTACIO": 78,
+                "CODI_ESTACIO": 522,
+                "NOM_ESTACIO": "Verdaguer",
+                "ORDRE_ESTACIO": 15,
+                "ID_LINIA": 3,
+                "CODI_LINIA": 5,
+                "NOM_LINIA": "L5",
+                "ORDRE_LINIA": 5,
+                "ID_TIPUS_SERVEI": 1,
+                "DESC_SERVEI": "Cornellà Centre - Vall d'Hebron",
+                "ORIGEN_SERVEI": "Cornellà Centre",
+                "DESTI_SERVEI": "Vall d'Hebron",
+                "ID_TIPUS_ACCESSIBILITAT": 3,
+                "NOM_TIPUS_ACCESSIBILITAT": "No accessible",
+                "ID_TIPUS_ESTAT": 1,
+                "NOM_TIPUS_ESTAT": "Operatiu",
+                "DATA_INAUGURACIO": "1970-06-25Z",
+                "DATA": "2023-11-22Z",
+                "COLOR_LINIA": "005A97",
+                "PICTO": "L5",
+                "PICTO_GRUP": "L4L5"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS_LINIA.fid--3674e9de_18bfcf58aed_792d",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.173618,
+                    41.403835
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO_LINIA": 527,
+                "CODI_ESTACIO_LINIA": 523,
+                "ID_GRUP_ESTACIO": 216,
+                "CODI_GRUP_ESTACIO": 6660216,
+                "ID_ESTACIO": 29,
+                "CODI_ESTACIO": 523,
+                "NOM_ESTACIO": "Sagrada Família",
+                "ORDRE_ESTACIO": 16,
+                "ID_LINIA": 3,
+                "CODI_LINIA": 5,
+                "NOM_LINIA": "L5",
+                "ORDRE_LINIA": 5,
+                "ID_TIPUS_SERVEI": 1,
+                "DESC_SERVEI": "Cornellà Centre - Vall d'Hebron",
+                "ORIGEN_SERVEI": "Cornellà Centre",
+                "DESTI_SERVEI": "Vall d'Hebron",
+                "ID_TIPUS_ACCESSIBILITAT": 1,
+                "NOM_TIPUS_ACCESSIBILITAT": "Accessible",
+                "ID_TIPUS_ESTAT": 1,
+                "NOM_TIPUS_ESTAT": "Operatiu",
+                "DATA_INAUGURACIO": "1970-06-25Z",
+                "DATA": "2023-11-22Z",
+                "COLOR_LINIA": "005A97",
+                "PICTO": "L5",
+                "PICTO_GRUP": "L2L5"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS_LINIA.fid--3674e9de_18bfcf58aed_792e",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.176016,
+                    41.410753
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO_LINIA": 528,
+                "CODI_ESTACIO_LINIA": 524,
+                "ID_GRUP_ESTACIO": 524,
+                "CODI_GRUP_ESTACIO": 6660524,
+                "ID_ESTACIO": 61,
+                "CODI_ESTACIO": 524,
+                "NOM_ESTACIO": "Sant Pau | Dos de Maig",
+                "ORDRE_ESTACIO": 17,
+                "ID_LINIA": 3,
+                "CODI_LINIA": 5,
+                "NOM_LINIA": "L5",
+                "ORDRE_LINIA": 5,
+                "ID_TIPUS_SERVEI": 1,
+                "DESC_SERVEI": "Cornellà Centre - Vall d'Hebron",
+                "ORIGEN_SERVEI": "Cornellà Centre",
+                "DESTI_SERVEI": "Vall d'Hebron",
+                "ID_TIPUS_ACCESSIBILITAT": 1,
+                "NOM_TIPUS_ACCESSIBILITAT": "Accessible",
+                "ID_TIPUS_ESTAT": 1,
+                "NOM_TIPUS_ESTAT": "Operatiu",
+                "DATA_INAUGURACIO": "1970-06-25Z",
+                "DATA": "2023-11-22Z",
+                "COLOR_LINIA": "005A97",
+                "PICTO": "L5",
+                "PICTO_GRUP": "L5"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS_LINIA.fid--3674e9de_18bfcf58aed_792f",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.181497,
+                    41.41506
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO_LINIA": 529,
+                "CODI_ESTACIO_LINIA": 525,
+                "ID_GRUP_ESTACIO": 525,
+                "CODI_GRUP_ESTACIO": 6660525,
+                "ID_ESTACIO": 79,
+                "CODI_ESTACIO": 525,
+                "NOM_ESTACIO": "Camp de l'Arpa",
+                "ORDRE_ESTACIO": 18,
+                "ID_LINIA": 3,
+                "CODI_LINIA": 5,
+                "NOM_LINIA": "L5",
+                "ORDRE_LINIA": 5,
+                "ID_TIPUS_SERVEI": 1,
+                "DESC_SERVEI": "Cornellà Centre - Vall d'Hebron",
+                "ORIGEN_SERVEI": "Cornellà Centre",
+                "DESTI_SERVEI": "Vall d'Hebron",
+                "ID_TIPUS_ACCESSIBILITAT": 1,
+                "NOM_TIPUS_ACCESSIBILITAT": "Accessible",
+                "ID_TIPUS_ESTAT": 1,
+                "NOM_TIPUS_ESTAT": "Operatiu",
+                "DATA_INAUGURACIO": "1970-06-25Z",
+                "DATA": "2023-11-22Z",
+                "COLOR_LINIA": "005A97",
+                "PICTO": "L5",
+                "PICTO_GRUP": "L5"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS_LINIA.fid--3674e9de_18bfcf58aed_7930",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.186582,
+                    41.421296
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO_LINIA": 530,
+                "CODI_ESTACIO_LINIA": 526,
+                "ID_GRUP_ESTACIO": 133,
+                "CODI_GRUP_ESTACIO": 6660133,
+                "ID_ESTACIO": 133,
+                "CODI_ESTACIO": 526,
+                "NOM_ESTACIO": "La Sagrera",
+                "ORDRE_ESTACIO": 19,
+                "ID_LINIA": 3,
+                "CODI_LINIA": 5,
+                "NOM_LINIA": "L5",
+                "ORDRE_LINIA": 5,
+                "ID_TIPUS_SERVEI": 1,
+                "DESC_SERVEI": "Cornellà Centre - Vall d'Hebron",
+                "ORIGEN_SERVEI": "Cornellà Centre",
+                "DESTI_SERVEI": "Vall d'Hebron",
+                "ID_TIPUS_ACCESSIBILITAT": 1,
+                "NOM_TIPUS_ACCESSIBILITAT": "Accessible",
+                "ID_TIPUS_ESTAT": 1,
+                "NOM_TIPUS_ESTAT": "Operatiu",
+                "DATA_INAUGURACIO": "1959-07-20Z",
+                "DATA": "2023-11-22Z",
+                "COLOR_LINIA": "005A97",
+                "PICTO": "L5",
+                "PICTO_GRUP": "L1L5L9NL10N"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS_LINIA.fid--3674e9de_18bfcf58aed_7931",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.176485,
+                    41.425045
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO_LINIA": 532,
+                "CODI_ESTACIO_LINIA": 528,
+                "ID_GRUP_ESTACIO": 431,
+                "CODI_GRUP_ESTACIO": 6660431,
+                "ID_ESTACIO": 30,
+                "CODI_ESTACIO": 528,
+                "NOM_ESTACIO": "Maragall",
+                "ORDRE_ESTACIO": 21,
+                "ID_LINIA": 3,
+                "CODI_LINIA": 5,
+                "NOM_LINIA": "L5",
+                "ORDRE_LINIA": 5,
+                "ID_TIPUS_SERVEI": 1,
+                "DESC_SERVEI": "Cornellà Centre - Vall d'Hebron",
+                "ORIGEN_SERVEI": "Cornellà Centre",
+                "DESTI_SERVEI": "Vall d'Hebron",
+                "ID_TIPUS_ACCESSIBILITAT": 3,
+                "NOM_TIPUS_ACCESSIBILITAT": "No accessible",
+                "ID_TIPUS_ESTAT": 1,
+                "NOM_TIPUS_ESTAT": "Operatiu",
+                "DATA_INAUGURACIO": "1959-07-20Z",
+                "DATA": "2023-11-22Z",
+                "COLOR_LINIA": "005A97",
+                "PICTO": "L5",
+                "PICTO_GRUP": "L4L5"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS_LINIA.fid--3674e9de_18bfcf58aed_7932",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.174913,
+                    41.429703
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO_LINIA": 533,
+                "CODI_ESTACIO_LINIA": 529,
+                "ID_GRUP_ESTACIO": 529,
+                "CODI_GRUP_ESTACIO": 6660529,
+                "ID_ESTACIO": 80,
+                "CODI_ESTACIO": 529,
+                "NOM_ESTACIO": "Virrei Amat",
+                "ORDRE_ESTACIO": 22,
+                "ID_LINIA": 3,
+                "CODI_LINIA": 5,
+                "NOM_LINIA": "L5",
+                "ORDRE_LINIA": 5,
+                "ID_TIPUS_SERVEI": 1,
+                "DESC_SERVEI": "Cornellà Centre - Vall d'Hebron",
+                "ORIGEN_SERVEI": "Cornellà Centre",
+                "DESTI_SERVEI": "Vall d'Hebron",
+                "ID_TIPUS_ACCESSIBILITAT": 3,
+                "NOM_TIPUS_ACCESSIBILITAT": "No accessible",
+                "ID_TIPUS_ESTAT": 1,
+                "NOM_TIPUS_ESTAT": "Operatiu",
+                "DATA_INAUGURACIO": "1959-07-20Z",
+                "DATA": "2023-11-22Z",
+                "COLOR_LINIA": "005A97",
+                "PICTO": "L5",
+                "PICTO_GRUP": "L5"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS_LINIA.fid--3674e9de_18bfcf58aed_7933",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.167619,
+                    41.430465
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO_LINIA": 534,
+                "CODI_ESTACIO_LINIA": 530,
+                "ID_GRUP_ESTACIO": 530,
+                "CODI_GRUP_ESTACIO": 6660530,
+                "ID_ESTACIO": 31,
+                "CODI_ESTACIO": 530,
+                "NOM_ESTACIO": "Vilapicina",
+                "ORDRE_ESTACIO": 23,
+                "ID_LINIA": 3,
+                "CODI_LINIA": 5,
+                "NOM_LINIA": "L5",
+                "ORDRE_LINIA": 5,
+                "ID_TIPUS_SERVEI": 1,
+                "DESC_SERVEI": "Cornellà Centre - Vall d'Hebron",
+                "ORIGEN_SERVEI": "Cornellà Centre",
+                "DESTI_SERVEI": "Vall d'Hebron",
+                "ID_TIPUS_ACCESSIBILITAT": 1,
+                "NOM_TIPUS_ACCESSIBILITAT": "Accessible",
+                "ID_TIPUS_ESTAT": 1,
+                "NOM_TIPUS_ESTAT": "Operatiu",
+                "DATA_INAUGURACIO": "1959-07-20Z",
+                "DATA": "2023-11-22Z",
+                "COLOR_LINIA": "005A97",
+                "PICTO": "L5",
+                "PICTO_GRUP": "L5"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS_LINIA.fid--3674e9de_18bfcf58aed_7934",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.159974,
+                    41.429693
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO_LINIA": 535,
+                "CODI_ESTACIO_LINIA": 531,
+                "ID_GRUP_ESTACIO": 531,
+                "CODI_GRUP_ESTACIO": 6660531,
+                "ID_ESTACIO": 32,
+                "CODI_ESTACIO": 531,
+                "NOM_ESTACIO": "Horta",
+                "ORDRE_ESTACIO": 24,
+                "ID_LINIA": 3,
+                "CODI_LINIA": 5,
+                "NOM_LINIA": "L5",
+                "ORDRE_LINIA": 5,
+                "ID_TIPUS_SERVEI": 1,
+                "DESC_SERVEI": "Cornellà Centre - Vall d'Hebron",
+                "ORIGEN_SERVEI": "Cornellà Centre",
+                "DESTI_SERVEI": "Vall d'Hebron",
+                "ID_TIPUS_ACCESSIBILITAT": 1,
+                "NOM_TIPUS_ACCESSIBILITAT": "Accessible",
+                "ID_TIPUS_ESTAT": 1,
+                "NOM_TIPUS_ESTAT": "Operatiu",
+                "DATA_INAUGURACIO": "1967-10-04Z",
+                "DATA": "2023-11-22Z",
+                "COLOR_LINIA": "005A97",
+                "PICTO": "L5",
+                "PICTO_GRUP": "L5"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS_LINIA.fid--3674e9de_18bfcf58aed_7935",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.148348,
+                    41.421997
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO_LINIA": 537,
+                "CODI_ESTACIO_LINIA": 533,
+                "ID_GRUP_ESTACIO": 533,
+                "CODI_GRUP_ESTACIO": 6660533,
+                "ID_ESTACIO": 101,
+                "CODI_ESTACIO": 533,
+                "NOM_ESTACIO": "El Coll | La Teixonera",
+                "ORDRE_ESTACIO": 26,
+                "ID_LINIA": 3,
+                "CODI_LINIA": 5,
+                "NOM_LINIA": "L5",
+                "ORDRE_LINIA": 5,
+                "ID_TIPUS_SERVEI": 1,
+                "DESC_SERVEI": "Cornellà Centre - Vall d'Hebron",
+                "ORIGEN_SERVEI": "Cornellà Centre",
+                "DESTI_SERVEI": "Vall d'Hebron",
+                "ID_TIPUS_ACCESSIBILITAT": 1,
+                "NOM_TIPUS_ACCESSIBILITAT": "Accessible",
+                "ID_TIPUS_ESTAT": 1,
+                "NOM_TIPUS_ESTAT": "Operatiu",
+                "DATA_INAUGURACIO": "2010-07-29Z",
+                "DATA": "2023-11-22Z",
+                "COLOR_LINIA": "005A97",
+                "PICTO": "L5",
+                "PICTO_GRUP": "L5"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS_LINIA.fid--3674e9de_18bfcf58aed_7936",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.142356,
+                    41.424993
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO_LINIA": 538,
+                "CODI_ESTACIO_LINIA": 534,
+                "ID_GRUP_ESTACIO": 333,
+                "CODI_GRUP_ESTACIO": 6660333,
+                "ID_ESTACIO": 102,
+                "CODI_ESTACIO": 534,
+                "NOM_ESTACIO": "Vall d'Hebron",
+                "ORDRE_ESTACIO": 27,
+                "ID_LINIA": 3,
+                "CODI_LINIA": 5,
+                "NOM_LINIA": "L5",
+                "ORDRE_LINIA": 5,
+                "ID_TIPUS_SERVEI": 1,
+                "DESC_SERVEI": "Cornellà Centre - Vall d'Hebron",
+                "ORIGEN_SERVEI": "Cornellà Centre",
+                "DESTI_SERVEI": "Vall d'Hebron",
+                "ID_TIPUS_ACCESSIBILITAT": 1,
+                "NOM_TIPUS_ACCESSIBILITAT": "Accessible",
+                "ID_TIPUS_ESTAT": 1,
+                "NOM_TIPUS_ESTAT": "Operatiu",
+                "DATA_INAUGURACIO": "2010-07-29Z",
+                "DATA": "2023-11-22Z",
+                "COLOR_LINIA": "005A97",
+                "PICTO": "L5",
+                "PICTO_GRUP": "L3L5"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS_LINIA.fid--3674e9de_18bfcf58aed_7937",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.181186,
+                    41.42344
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO_LINIA": 531,
+                "CODI_ESTACIO_LINIA": 527,
+                "ID_GRUP_ESTACIO": 527,
+                "CODI_GRUP_ESTACIO": 6660527,
+                "ID_ESTACIO": 138,
+                "CODI_ESTACIO": 527,
+                "NOM_ESTACIO": "Congrés",
+                "ORDRE_ESTACIO": 20,
+                "ID_LINIA": 3,
+                "CODI_LINIA": 5,
+                "NOM_LINIA": "L5",
+                "ORDRE_LINIA": 5,
+                "ID_TIPUS_SERVEI": 1,
+                "DESC_SERVEI": "Cornellà Centre - Vall d'Hebron",
+                "ORIGEN_SERVEI": "Cornellà Centre",
+                "DESTI_SERVEI": "Vall d'Hebron",
+                "ID_TIPUS_ACCESSIBILITAT": 1,
+                "NOM_TIPUS_ACCESSIBILITAT": "Accessible",
+                "ID_TIPUS_ESTAT": 1,
+                "NOM_TIPUS_ESTAT": "Operatiu",
+                "DATA_INAUGURACIO": "1959-07-20Z",
+                "DATA": "2023-11-22Z",
+                "COLOR_LINIA": "005A97",
+                "PICTO": "L5",
+                "PICTO_GRUP": "L5"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS_LINIA.fid--3674e9de_18bfcf58aed_7938",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.070428,
+                    41.35729
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO_LINIA": 512,
+                "CODI_ESTACIO_LINIA": 509,
+                "ID_GRUP_ESTACIO": 509,
+                "CODI_GRUP_ESTACIO": 6660509,
+                "ID_ESTACIO": 24,
+                "CODI_ESTACIO": 509,
+                "NOM_ESTACIO": "Cornellà Centre",
+                "ORDRE_ESTACIO": 1,
+                "ID_LINIA": 3,
+                "CODI_LINIA": 5,
+                "NOM_LINIA": "L5",
+                "ORDRE_LINIA": 5,
+                "ID_TIPUS_SERVEI": 1,
+                "DESC_SERVEI": "Cornellà Centre - Vall d'Hebron",
+                "ORIGEN_SERVEI": "Cornellà Centre",
+                "DESTI_SERVEI": "Vall d'Hebron",
+                "ID_TIPUS_ACCESSIBILITAT": 1,
+                "NOM_TIPUS_ACCESSIBILITAT": "Accessible",
+                "ID_TIPUS_ESTAT": 1,
+                "NOM_TIPUS_ESTAT": "Operatiu",
+                "DATA_INAUGURACIO": "1983-12-22Z",
+                "DATA": "2023-11-22Z",
+                "COLOR_LINIA": "005A97",
+                "PICTO": "L5",
+                "PICTO_GRUP": "L5"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS_LINIA.fid--3674e9de_18bfcf58aed_7939",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.151081,
+                    41.388608
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO_LINIA": 524,
+                "CODI_ESTACIO_LINIA": 520,
+                "ID_GRUP_ESTACIO": 520,
+                "CODI_GRUP_ESTACIO": 6660520,
+                "ID_ESTACIO": 118,
+                "CODI_ESTACIO": 520,
+                "NOM_ESTACIO": "Hospital Clínic",
+                "ORDRE_ESTACIO": 13,
+                "ID_LINIA": 3,
+                "CODI_LINIA": 5,
+                "NOM_LINIA": "L5",
+                "ORDRE_LINIA": 5,
+                "ID_TIPUS_SERVEI": 1,
+                "DESC_SERVEI": "Cornellà Centre - Vall d'Hebron",
+                "ORIGEN_SERVEI": "Cornellà Centre",
+                "DESTI_SERVEI": "Vall d'Hebron",
+                "ID_TIPUS_ACCESSIBILITAT": 1,
+                "NOM_TIPUS_ACCESSIBILITAT": "Accessible",
+                "ID_TIPUS_ESTAT": 1,
+                "NOM_TIPUS_ESTAT": "Operatiu",
+                "DATA_INAUGURACIO": "1969-11-29Z",
+                "DATA": "2023-11-22Z",
+                "COLOR_LINIA": "005A97",
+                "PICTO": "L5",
+                "PICTO_GRUP": "L5"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS_LINIA.fid--3674e9de_18bfcf58aed_793a",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.155099,
+                    41.42445
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO_LINIA": 536,
+                "CODI_ESTACIO_LINIA": 532,
+                "ID_GRUP_ESTACIO": 532,
+                "CODI_GRUP_ESTACIO": 6660532,
+                "ID_ESTACIO": 100,
+                "CODI_ESTACIO": 532,
+                "NOM_ESTACIO": "El Carmel",
+                "ORDRE_ESTACIO": 25,
+                "ID_LINIA": 3,
+                "CODI_LINIA": 5,
+                "NOM_LINIA": "L5",
+                "ORDRE_LINIA": 5,
+                "ID_TIPUS_SERVEI": 1,
+                "DESC_SERVEI": "Cornellà Centre - Vall d'Hebron",
+                "ORIGEN_SERVEI": "Cornellà Centre",
+                "DESTI_SERVEI": "Vall d'Hebron",
+                "ID_TIPUS_ACCESSIBILITAT": 1,
+                "NOM_TIPUS_ACCESSIBILITAT": "Accessible",
+                "ID_TIPUS_ESTAT": 1,
+                "NOM_TIPUS_ESTAT": "Operatiu",
+                "DATA_INAUGURACIO": "2010-07-29Z",
+                "DATA": "2023-11-22Z",
+                "COLOR_LINIA": "005A97",
+                "PICTO": "L5",
+                "PICTO_GRUP": "L5"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ESTACIONS_LINIA.fid--3674e9de_18bfcf58aed_793b",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.112027,
+                    41.375898
+                ]
+            },
+            "geometry_name": "GEOMETRY",
+            "properties": {
+                "ID_ESTACIO_LINIA": 518,
+                "CODI_ESTACIO_LINIA": 555,
+                "ID_GRUP_ESTACIO": 555,
+                "CODI_GRUP_ESTACIO": 6660555,
+                "ID_ESTACIO": 376,
+                "CODI_ESTACIO": 555,
+                "NOM_ESTACIO": "Ernest Lluch",
+                "ORDRE_ESTACIO": 7,
+                "ID_LINIA": 3,
+                "CODI_LINIA": 5,
+                "NOM_LINIA": "L5",
+                "ORDRE_LINIA": 5,
+                "ID_TIPUS_SERVEI": 1,
+                "DESC_SERVEI": "Cornellà Centre - Vall d'Hebron",
+                "ORIGEN_SERVEI": "Cornellà Centre",
+                "DESTI_SERVEI": "Vall d'Hebron",
+                "ID_TIPUS_ACCESSIBILITAT": 1,
+                "NOM_TIPUS_ACCESSIBILITAT": "Accessible",
+                "ID_TIPUS_ESTAT": 1,
+                "NOM_TIPUS_ESTAT": "Operatiu",
+                "DATA_INAUGURACIO": "2021-07-24Z",
+                "DATA": "2023-11-22Z",
+                "COLOR_LINIA": "005A97",
+                "PICTO": "L5",
+                "PICTO_GRUP": "L5"
+            }
+        }
+    ],
+    "totalFeatures": 27,
+    "numberMatched": 27,
+    "numberReturned": 27,
+    "timeStamp": "2023-11-23T16:33:25.946Z",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+        }
+    }
+}
