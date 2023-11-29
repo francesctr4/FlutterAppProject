@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
 
+import 'screens/e_card_screen.dart';
+import 'screens/home_screen.dart';
+import 'screens/lines_screen.dart';
+import 'screens/stations_screen.dart';
+
 void main(List<String> args) {
   runApp(const MyApp());
 }
@@ -14,34 +19,8 @@ class MyApp extends StatelessWidget {
         "/": (context) => const HomeScreen(),
         "/ecardScreen": (context) => const ECardScreen(),
         "/linesScreen": (context) => const LinesScreen(),
+        "/stationsScreen": (context) => const StationsScreen(),
       },
     );
-  }
-}
-
-class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const Placeholder();
-  }
-}
-
-class ECardScreen extends StatelessWidget {
-  const ECardScreen({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const Placeholder();
-  }
-}
-
-class LinesScreen extends StatelessWidget {
-  const LinesScreen({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const Placeholder();
   }
 }
