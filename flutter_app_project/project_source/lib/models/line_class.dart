@@ -1,9 +1,11 @@
 class Line {
-  String lineName;
-  String firstStation, lastStation;
+  String? lineName;
+  String? firstStation;
+  String? lastStation;
 
-  Line.fromJson(Map<String, dynamic> json)
-      : lineName = json["properties"]["NOM_LINIA"],
-        firstStation = json["properties"]["ORIGEN_LINIA"],
-        lastStation = json["properties"]["DESTI_LINIA"];
+  Line.fromJson(Map<String, dynamic> json) {
+    lineName = json["features"]["properties"]["NOM_LINIA"];
+    firstStation = json["features"]["properties"]["ORIGEN_LINIA"];
+    lastStation = json["features"]["properties"]["DESTI_LINIA"];
+  }
 }
