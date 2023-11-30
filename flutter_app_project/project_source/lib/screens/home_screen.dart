@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:project_source/widgets/bottom_bar.dart';
+import 'package:project_source/widgets/bottom_bar_widget.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -24,7 +24,7 @@ class HomeScreen extends StatelessWidget {
         children: [
           Align(
             alignment: Alignment.bottomCenter,
-            child: BottomBar(
+            child: BottomBarWidget(
               highlighted: "Home",
             ),
           ),

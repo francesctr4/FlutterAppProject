@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class BottomBar extends StatelessWidget {
-  BottomBar({
+class BottomBarWidget extends StatelessWidget {
+  BottomBarWidget({
     super.key,
     this.highlighted,
   });

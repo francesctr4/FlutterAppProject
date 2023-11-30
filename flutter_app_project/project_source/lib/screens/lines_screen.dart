@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../widgets/bottom_bar.dart';
+import '../widgets/bottom_bar_widget.dart';
 
 class LinesScreen extends StatelessWidget {
   const LinesScreen({super.key});
@@ -55,7 +55,7 @@ class LinesScreen extends StatelessWidget {
           ),
           Align(
             alignment: Alignment.bottomCenter,
-            child: BottomBar(
+            child: BottomBarWidget(
               highlighted: "Lines",
             ),
           ),
