@@ -25,56 +25,77 @@ class BottomBar extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
-          Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Icon(
-                Icons.home,
-                size: 40,
-                color: homeColor,
-              ),
-              Text(
-                "Home",
-                style: TextStyle(
+          GestureDetector(
+            onTap: () {
+              if (ModalRoute.of(context)!.settings.name != "/") {
+                Navigator.pushReplacementNamed(context, "/");
+              }
+            },
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Icon(
+                  Icons.home,
+                  size: 40,
                   color: homeColor,
-                  fontSize: 20,
                 ),
-              ),
-            ],
+                Text(
+                  "Home",
+                  style: TextStyle(
+                    color: homeColor,
+                    fontSize: 20,
+                  ),
+                ),
+              ],
+            ),
           ),
-          Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Icon(
-                Icons.credit_card,
-                size: 40,
-                color: eCardColor,
-              ),
-              Text(
-                "e-Card",
-                style: TextStyle(
+          GestureDetector(
+            onTap: () {
+              if (ModalRoute.of(context)!.settings.name != "/ecardScreen") {
+                Navigator.pushReplacementNamed(context, "/ecardScreen");
+              }
+            },
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Icon(
+                  Icons.credit_card,
+                  size: 40,
                   color: eCardColor,
-                  fontSize: 20,
                 ),
-              ),
-            ],
+                Text(
+                  "e-Card",
+                  style: TextStyle(
+                    color: eCardColor,
+                    fontSize: 20,
+                  ),
+                ),
+              ],
+            ),
           ),
-          Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Icon(
-                Icons.directions_subway,
-                size: 40,
-                color: linesColor,
-              ),
-              Text(
-                "Lines",
-                style: TextStyle(
+          GestureDetector(
+            onTap: () {
+              if (ModalRoute.of(context)!.settings.name != "/linesScreen") {
+                Navigator.pushReplacementNamed(context, "/linesScreen");
+              }
+            },
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Icon(
+                  Icons.directions_subway,
+                  size: 40,
                   color: linesColor,
-                  fontSize: 20,
                 ),
-              ),
-            ],
+                Text(
+                  "Lines",
+                  style: TextStyle(
+                    color: linesColor,
+                    fontSize: 20,
+                  ),
+                ),
+              ],
+            ),
           ),
         ],
       ),

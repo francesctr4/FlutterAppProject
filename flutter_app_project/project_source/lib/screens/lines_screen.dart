@@ -18,15 +18,7 @@ class LinesScreen extends StatelessWidget {
         toolbarHeight: 70,
         backgroundColor: const Color.fromRGBO(226, 238, 252, 1),
         foregroundColor: Colors.black,
-        leading: IconButton(
-          icon: const Icon(
-            Icons.arrow_back_ios_new,
-            color: Colors.black,
-          ),
-          onPressed: () {
-            Navigator.pop(context);
-          },
-        ),
+        leading: null,
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,

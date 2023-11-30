@@ -21,7 +21,6 @@ class MyApp extends StatelessWidget {
         "/linesScreen": (context) => const LinesScreen(),
         "/stationsScreen": (context) => const StationsScreen(),
       },
-      initialRoute: "/linesScreen",
     );
   }
 }
