@@ -19,14 +19,14 @@ class HomeScreen extends StatelessWidget {
         foregroundColor: Colors.black,
         leading: null,
       ),
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      backgroundColor: Colors.white,
+      body: Stack(
         children: [
-          Container(
-            color: Colors.white,
-          ),
-          BottomBar(
-            highlighted: "Home",
+          Align(
+            alignment: Alignment.bottomCenter,
+            child: BottomBar(
+              highlighted: "Home",
+            ),
           ),
         ],
       ),

@@ -18,14 +18,14 @@ class ECardScreen extends StatelessWidget {
           backgroundColor: const Color.fromRGBO(226, 238, 252, 1),
           foregroundColor: Colors.black,
           leading: null),
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      backgroundColor: Colors.white,
+      body: Stack(
         children: [
-          Container(
-            color: Colors.white,
-          ),
-          BottomBar(
-            highlighted: "e-Card",
+          Align(
+            alignment: Alignment.bottomCenter,
+            child: BottomBar(
+              highlighted: "e-Card",
+            ),
           ),
         ],
       ),
