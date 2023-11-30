@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../widgets/bottom_bar.dart';
+
 class LinesScreen extends StatelessWidget {
   const LinesScreen({super.key});
 
@@ -32,26 +34,7 @@ class LinesScreen extends StatelessWidget {
           Container(
             color: Colors.white,
           ),
-          Container(
-            height: 110,
-            color: const Color.fromRGBO(64, 70, 136, 1),
-            child: const Row(
-              children: [
-                Icon(
-                  Icons.home,
-                  color: Colors.white,
-                ),
-                Icon(
-                  Icons.credit_card,
-                  color: Colors.white,
-                ),
-                Icon(
-                  Icons.directions_subway,
-                  color: Colors.white,
-                ),
-              ],
-            ),
-          ),
+          const BottomBar(),
         ],
       ),
     );
