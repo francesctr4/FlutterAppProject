@@ -3,7 +3,7 @@ import 'package:project_source/api/line_api.dart';
 import 'package:project_source/models/line_class.dart';
 import 'package:project_source/widgets/line_list_item.dart';
 
-import '../widgets/bottom_bar.dart';
+import '../widgets/bottom_bar_widget.dart';
 
 class LinesScreen extends StatelessWidget {
   const LinesScreen({super.key});
@@ -53,7 +53,7 @@ class LinesScreen extends StatelessWidget {
           ),
           Align(
             alignment: Alignment.bottomCenter,
-            child: BottomBar(
+            child: BottomBarWidget(
               highlighted: "Lines",
             ),
           ),
