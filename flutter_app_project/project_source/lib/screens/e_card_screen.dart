@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:project_source/models/ecard_class.dart';
+import 'package:project_source/models/e_card_class.dart';
 import 'package:project_source/widgets/bottom_bar_widget.dart';
 
 import '../widgets/ecard_widget.dart';

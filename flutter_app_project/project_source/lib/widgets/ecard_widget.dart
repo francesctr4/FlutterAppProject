@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:project_source/models/ecard_class.dart';
+import 'package:project_source/models/e_card_class.dart';
 
 class EcardWidget extends StatelessWidget {
   const EcardWidget({
