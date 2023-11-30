@@ -1,16 +1,28 @@
 import 'package:flutter/material.dart';
 
 class BottomBar extends StatelessWidget {
-  const BottomBar({
+  BottomBar({
     super.key,
+    this.highlighted,
   });
+
+  final String? highlighted;
+
+  final Color selected = Colors.white;
+  final Color notSelected = const Color.fromARGB(100, 255, 255, 255);
+
+  late final Color homeColor = (highlighted == "Home") ? selected : notSelected;
+  late final Color eCardColor =
+      (highlighted == "e-Card") ? selected : notSelected;
+  late final Color linesColor =
+      (highlighted == "Lines") ? selected : notSelected;
 
   @override
   Widget build(BuildContext context) {
     return Container(
       height: 100,
       color: const Color.fromRGBO(64, 70, 136, 1),
-      child: const Row(
+      child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
           Column(
@@ -19,12 +31,12 @@ class BottomBar extends StatelessWidget {
               Icon(
                 Icons.home,
                 size: 40,
-                color: Colors.white,
+                color: homeColor,
               ),
               Text(
                 "Home",
                 style: TextStyle(
-                  color: Colors.white,
+                  color: homeColor,
                   fontSize: 20,
                 ),
               ),
@@ -36,12 +48,12 @@ class BottomBar extends StatelessWidget {
               Icon(
                 Icons.credit_card,
                 size: 40,
-                color: Colors.white,
+                color: eCardColor,
               ),
               Text(
                 "e-Card",
                 style: TextStyle(
-                  color: Colors.white,
+                  color: eCardColor,
                   fontSize: 20,
                 ),
               ),
@@ -53,12 +65,12 @@ class BottomBar extends StatelessWidget {
               Icon(
                 Icons.directions_subway,
                 size: 40,
-                color: Colors.white,
+                color: linesColor,
               ),
               Text(
                 "Lines",
                 style: TextStyle(
-                  color: Colors.white,
+                  color: linesColor,
                   fontSize: 20,
                 ),
               ),

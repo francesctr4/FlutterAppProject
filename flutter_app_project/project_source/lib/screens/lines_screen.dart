@@ -34,7 +34,9 @@ class LinesScreen extends StatelessWidget {
           Container(
             color: Colors.white,
           ),
-          const BottomBar(),
+          BottomBar(
+            highlighted: "Lines",
+          ),
         ],
       ),
     );
