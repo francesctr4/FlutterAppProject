@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         "/": (context) => const HomeScreen(),
         "/ecardScreen": (context) => const ECardScreen(),
         "/linesScreen": (context) => const LinesScreen(),
-        "/stationsScreen": (context) => const StationsScreen(),
+        "/linesScreen/stationsScreen": (context) => const StationsScreen(),
       },
     );
   }
