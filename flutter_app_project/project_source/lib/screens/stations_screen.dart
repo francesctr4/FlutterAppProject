@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:project_source/models/line_class.dart';
 import 'package:project_source/widgets/bottom_bar_widget.dart';
 
 class StationsScreen extends StatelessWidget {
@@ -6,11 +7,33 @@ class StationsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final line = ModalRoute.of(context)!.settings.arguments as Line;
+
+    return _StationsScreenImplementation(line: line);
+  }
+}
+
+class _StationsScreenImplementation extends StatefulWidget {
+  const _StationsScreenImplementation({
+    required this.line,
+  });
+
+  final Line line;
+
+  @override
+  State<_StationsScreenImplementation> createState() =>
+      _StationsScreenImplementationState();
+}
+
+class _StationsScreenImplementationState
+    extends State<_StationsScreenImplementation> {
+  @override
+  Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text(
-          "Stations",
-          style: TextStyle(
+        title: Text(
+          "${widget.line.lineName}",
+          style: const TextStyle(
             fontWeight: FontWeight.bold,
           ),
         ),

@@ -26,7 +26,10 @@ class LineListItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        Navigator.pushNamed(context, "/linesScreen/stationsScreen");
+        Navigator.of(context).pushNamed(
+          "/linesScreen/stationsScreen",
+          arguments: line,
+        );
       },
       child: ListTile(
         leading: Container(
