@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:project_source/api/line_stations_api.dart';
 import 'package:project_source/models/line_class.dart';
-import 'package:project_source/models/metro_line_colors_map.dart';
 import 'package:project_source/models/station_class.dart';
 import 'package:project_source/widgets/bottom_bar_widget.dart';
 
+import '../widgets/line_stations_container.dart';
 import '../widgets/station_list_item.dart';
 
 class StationsScreen extends StatelessWidget {
@@ -51,30 +51,7 @@ class _StationsScreenImplementationState
       backgroundColor: const Color.fromRGBO(226, 238, 252, 1),
       body: Stack(
         children: [
-          Padding(
-            padding: const EdgeInsets.fromLTRB(30, 0, 30, 0),
-            child: Container(
-              height: kToolbarHeight + 80,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(30),
-                color: Colors.white,
-              ),
-              child: Row(
-                children: [
-                  const Icon(
-                    Icons.directions_subway,
-                  ),
-                  Text(widget.line.firstStation!),
-                  Text(widget.line.lastStation!),
-                  Container(
-                    width: 45,
-                    height: 45,
-                    color: metroLineColors[widget.line.lineName],
-                  ),
-                ],
-              ),
-            ),
-          ),
+          LineStationsContainer(line: widget.line),
           FutureBuilder(
             future: apiLoadStationsFromLine(widget.line),
             builder:
