@@ -36,17 +36,21 @@ class LinesScreen extends StatelessWidget {
                 );
               }
               final lineList = snapshot.data!;
-              return ListView.separated(
-                itemCount: lineList.length,
-                itemBuilder: (BuildContext context, int index) {
-                  lineList.sort((a, b) => a.lineNumber.compareTo(b.lineNumber));
-                  return LineListItem(line: lineList[index]);
-                },
-                separatorBuilder: (context, index) {
-                  return const Divider(
-                    height: 1,
-                  );
-                },
+              return Container(
+                margin: const EdgeInsets.only(bottom: 100),
+                child: ListView.separated(
+                  itemCount: lineList.length,
+                  itemBuilder: (BuildContext context, int index) {
+                    lineList
+                        .sort((a, b) => a.lineNumber.compareTo(b.lineNumber));
+                    return LineListItem(line: lineList[index]);
+                  },
+                  separatorBuilder: (context, index) {
+                    return const Divider(
+                      height: 1,
+                    );
+                  },
+                ),
               );
             },
           ),

@@ -59,18 +59,21 @@ class _StationsScreenImplementationState
                 );
               }
               final stationList = snapshot.data!;
-              return ListView.separated(
-                itemCount: stationList.length,
-                itemBuilder: (BuildContext context, int index) {
-                  stationList.sort(
-                      (a, b) => a.stationOrder!.compareTo(b.stationOrder!));
-                  return StationListItem(station: stationList[index]);
-                },
-                separatorBuilder: (context, index) {
-                  return const Divider(
-                    height: 1,
-                  );
-                },
+              return Container(
+                margin: const EdgeInsets.only(bottom: 100),
+                child: ListView.separated(
+                  itemCount: stationList.length,
+                  itemBuilder: (BuildContext context, int index) {
+                    stationList.sort(
+                        (a, b) => a.stationOrder!.compareTo(b.stationOrder!));
+                    return StationListItem(station: stationList[index]);
+                  },
+                  separatorBuilder: (context, index) {
+                    return const Divider(
+                      height: 1,
+                    );
+                  },
+                ),
               );
             },
           ),
