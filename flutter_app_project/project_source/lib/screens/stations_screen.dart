@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:project_source/api/line_stations_api.dart';
 import 'package:project_source/models/line_class.dart';
+import 'package:project_source/models/metro_line_colors_map.dart';
 import 'package:project_source/models/station_class.dart';
 import 'package:project_source/widgets/bottom_bar_widget.dart';
 
@@ -41,14 +42,39 @@ class _StationsScreenImplementationState
             fontWeight: FontWeight.bold,
           ),
         ),
-        toolbarHeight: 70,
+        toolbarHeight: 100,
         backgroundColor: const Color.fromRGBO(226, 238, 252, 1),
         foregroundColor: Colors.black,
         leading: null,
+        elevation: 0,
       ),
-      backgroundColor: Colors.white,
+      backgroundColor: const Color.fromRGBO(226, 238, 252, 1),
       body: Stack(
         children: [
+          Padding(
+            padding: const EdgeInsets.fromLTRB(30, 0, 30, 0),
+            child: Container(
+              height: kToolbarHeight + 80,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(30),
+                color: Colors.white,
+              ),
+              child: Row(
+                children: [
+                  const Icon(
+                    Icons.directions_subway,
+                  ),
+                  Text(widget.line.firstStation!),
+                  Text(widget.line.lastStation!),
+                  Container(
+                    width: 45,
+                    height: 45,
+                    color: metroLineColors[widget.line.lineName],
+                  ),
+                ],
+              ),
+            ),
+          ),
           FutureBuilder(
             future: apiLoadStationsFromLine(widget.line),
             builder:
@@ -60,18 +86,13 @@ class _StationsScreenImplementationState
               }
               final stationList = snapshot.data!;
               return Container(
-                margin: const EdgeInsets.only(bottom: 100),
-                child: ListView.separated(
+                margin: const EdgeInsets.fromLTRB(50, 160, 50, 130),
+                child: ListView.builder(
                   itemCount: stationList.length,
                   itemBuilder: (BuildContext context, int index) {
                     stationList.sort(
                         (a, b) => a.stationOrder!.compareTo(b.stationOrder!));
                     return StationListItem(station: stationList[index]);
-                  },
-                  separatorBuilder: (context, index) {
-                    return const Divider(
-                      height: 1,
-                    );
                   },
                 ),
               );
