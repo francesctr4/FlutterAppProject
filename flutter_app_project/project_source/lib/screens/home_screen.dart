@@ -20,6 +20,28 @@ class HomeScreen extends StatelessWidget {
         leading: null,
       ),
       backgroundColor: Colors.white,
+      bottomNavigationBar: BottomNavigationBar(
+        items: const <BottomNavigationBarItem>[
+          BottomNavigationBarItem(
+            icon: Icon(Icons.home),
+            label: 'Home',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.credit_card),
+            label: 'e-Card',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.directions_subway),
+            label: 'Lines',
+          ),
+        ],
+        iconSize: 36,
+        selectedFontSize: 18,
+        unselectedFontSize: 18,
+        backgroundColor: const Color.fromRGBO(64, 70, 136, 1),
+        selectedItemColor: Colors.white,
+        unselectedItemColor: const Color.fromARGB(100, 255, 255, 255),
+      ),
       body: Stack(
         children: [
           Align(
