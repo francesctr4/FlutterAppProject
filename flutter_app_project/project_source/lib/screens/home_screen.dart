@@ -5,10 +5,17 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      width: 50,
-      height: 50,
-      color: Colors.yellow,
+    return const SingleChildScrollView(
+      child: Column(
+        children: [
+          SizedBox(
+            height: 300,
+            child: Stack(
+
+            ),
+          ),
+        ],
+      ),
     );
   }
 }
