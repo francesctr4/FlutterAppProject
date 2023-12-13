@@ -8,32 +8,28 @@ class LinesScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Stack(
-      children: [
-        FutureBuilder(
-          future: apiLoadLines(),
-          builder: (BuildContext context, AsyncSnapshot<List<Line>> snapshot) {
-            if (!snapshot.hasData) {
-              return const Center(
-                child: CircularProgressIndicator(),
-              );
-            }
-            final lineList = snapshot.data!;
-            return ListView.separated(
-              itemCount: lineList.length,
-              itemBuilder: (BuildContext context, int index) {
-                lineList.sort((a, b) => a.lineNumber.compareTo(b.lineNumber));
-                return LineListItem(line: lineList[index]);
-              },
-              separatorBuilder: (context, index) {
-                return const Divider(
-                  height: 1,
-                );
-              },
+    return FutureBuilder(
+      future: apiLoadLines(),
+      builder: (BuildContext context, AsyncSnapshot<List<Line>> snapshot) {
+        if (!snapshot.hasData) {
+          return const Center(
+            child: CircularProgressIndicator(),
+          );
+        }
+        final lineList = snapshot.data!;
+        return ListView.separated(
+          itemCount: lineList.length,
+          itemBuilder: (BuildContext context, int index) {
+            lineList.sort((a, b) => a.lineNumber.compareTo(b.lineNumber));
+            return LineListItem(line: lineList[index]);
+          },
+          separatorBuilder: (context, index) {
+            return const Divider(
+              height: 1,
             );
           },
-        ),
-      ],
+        );
+      },
     );
   }
 }

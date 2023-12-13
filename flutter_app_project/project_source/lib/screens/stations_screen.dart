@@ -50,7 +50,6 @@ class _StationsScreenImplementationState
       backgroundColor: const Color.fromRGBO(226, 238, 252, 1),
       body: Stack(
         children: [
-          LineStationsContainer(line: widget.line),
           FutureBuilder(
             future: apiLoadStationsFromLine(widget.line),
             builder:
@@ -62,7 +61,7 @@ class _StationsScreenImplementationState
               }
               final stationList = snapshot.data!;
               return Container(
-                margin: const EdgeInsets.fromLTRB(50, 160, 50, 0),
+                margin: const EdgeInsets.fromLTRB(50, 135, 50, 0),
                 child: ListView.builder(
                   itemCount: stationList.length,
                   itemBuilder: (BuildContext context, int index) {
@@ -74,6 +73,7 @@ class _StationsScreenImplementationState
               );
             },
           ),
+          LineStationsContainer(line: widget.line),
         ],
       ),
     );

@@ -37,10 +37,17 @@ class BaseScreenState extends State<BaseScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(upBarName[_selectedIndex]!),
+        title: Text(
+          upBarName[_selectedIndex]!,
+          style: const TextStyle(
+            color: Colors.black,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+        backgroundColor: const Color.fromRGBO(226, 238, 252, 1),
       ),
       body: _screens[_selectedIndex],
-          bottomNavigationBar: BottomNavigationBar(
+      bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(Icons.home),

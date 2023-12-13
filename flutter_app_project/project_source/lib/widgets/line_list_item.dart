@@ -15,7 +15,7 @@ class LineListItem extends StatelessWidget {
     return GestureDetector(
       onTap: () {
         Navigator.of(context).pushNamed(
-          "/linesScreen/stationsScreen",
+          "/stationsScreen",
           arguments: line,
         );
       },
