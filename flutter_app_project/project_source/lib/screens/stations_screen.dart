@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:project_source/api/line_stations_api.dart';
 import 'package:project_source/models/line_class.dart';
 import 'package:project_source/models/station_class.dart';
-import 'package:project_source/widgets/bottom_bar_widget.dart';
 
 import '../widgets/line_stations_container.dart';
 import '../widgets/station_list_item.dart';
@@ -63,7 +62,7 @@ class _StationsScreenImplementationState
               }
               final stationList = snapshot.data!;
               return Container(
-                margin: const EdgeInsets.fromLTRB(50, 160, 50, 130),
+                margin: const EdgeInsets.fromLTRB(50, 160, 50, 0),
                 child: ListView.builder(
                   itemCount: stationList.length,
                   itemBuilder: (BuildContext context, int index) {
@@ -74,10 +73,6 @@ class _StationsScreenImplementationState
                 ),
               );
             },
-          ),
-          Align(
-            alignment: Alignment.bottomCenter,
-            child: BottomBarWidget(),
           ),
         ],
       ),

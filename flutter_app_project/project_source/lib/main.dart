@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:project_source/screens/base_screen.dart';
 
-import 'screens/e_card_screen.dart';
-import 'screens/home_screen.dart';
-import 'screens/lines_screen.dart';
 import 'screens/stations_screen.dart';
 
 void main(List<String> args) {
@@ -16,9 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       routes: {
-        "/": (context) => const HomeScreen(),
-        "/ecardScreen": (context) => const ECardScreen(),
-        "/linesScreen": (context) => const LinesScreen(),
+        "/": (context) => const BaseScreen(),
         "/linesScreen/stationsScreen": (context) => const StationsScreen(),
       },
     );
