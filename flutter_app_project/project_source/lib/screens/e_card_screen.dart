@@ -43,13 +43,17 @@ class ECardScreen extends StatelessWidget {
                   ),
                 ),
                 child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  mainAxisAlignment: MainAxisAlignment.end,
                   children: [
-                    const Text("Valid until"),
-                    ElevatedButton(
-                      onPressed: () {},
-                      style: ElevatedButton.styleFrom(
-                          backgroundColor: Colors.transparent, elevation: 0),
-                      child: Ink(
+                    //const Text("Valid until"),
+                    Padding(
+                      padding: const EdgeInsets.only(
+                        bottom: 12,
+                        left: 60,
+                        right: 60,
+                      ),
+                      child: Container(
                         decoration: BoxDecoration(
                           gradient: const LinearGradient(
                             colors: [
@@ -57,16 +61,20 @@ class ECardScreen extends StatelessWidget {
                               Color.fromRGBO(95, 109, 255, 1),
                             ],
                           ),
-                          borderRadius: BorderRadius.circular(8.0),
+                          borderRadius: BorderRadius.circular(30.0),
                         ),
-                        child: Container(
-                          constraints: const BoxConstraints(
-                              maxWidth: 300.0, minHeight: 50.0),
-                          alignment: Alignment.center,
-                          child: const Text(
+                        child: const Padding(
+                          padding: EdgeInsets.only(
+                            top: 5,
+                            bottom: 5,
+                          ),
+                          child: Text(
                             "Recharge",
                             textAlign: TextAlign.center,
-                            style: TextStyle(color: Colors.white),
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 30,
+                            ),
                           ),
                         ),
                       ),
