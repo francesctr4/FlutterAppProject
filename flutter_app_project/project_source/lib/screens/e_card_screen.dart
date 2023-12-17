@@ -5,6 +5,7 @@ import 'package:project_source/models/e_card_class.dart';
 import 'package:project_source/widgets/latest_trip_widget.dart';
 
 import '../widgets/ecard_widget.dart';
+import '../widgets/validity_bar_widget.dart';
 
 class ECardScreen extends StatelessWidget {
   const ECardScreen({
@@ -41,33 +42,70 @@ class ECardScreen extends StatelessWidget {
                 ),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
-                  mainAxisAlignment: MainAxisAlignment.end,
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
-                    const Text("Valid until"),
-                    Text(ecard.validity),
-                    Padding(
-                      padding: const EdgeInsets.only(
-                        left: 20,
-                        right: 20,
-                      ),
-                      child: Container(
-                        decoration: const BoxDecoration(
-                          shape: BoxShape.circle,
-                          color: Color.fromRGBO(64, 70, 136, 1),
-                        ),
-                        child: Transform.rotate(
-                          angle: 90 * pi / 180,
-                          child: const Padding(
-                            padding: EdgeInsets.all(8.0),
-                            child: Icon(
-                              Icons.confirmation_num,
-                              color: Colors.white,
-                              size: 50,
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Row(
+                          children: [
+                            Padding(
+                              padding: const EdgeInsets.only(
+                                left: 20,
+                                right: 20,
+                              ),
+                              child: Container(
+                                decoration: const BoxDecoration(
+                                  shape: BoxShape.circle,
+                                  color: Color.fromRGBO(64, 70, 136, 1),
+                                ),
+                                child: Transform.rotate(
+                                  angle: 90 * pi / 180,
+                                  child: const Padding(
+                                    padding: EdgeInsets.all(8.0),
+                                    child: Icon(
+                                      Icons.confirmation_num,
+                                      color: Colors.white,
+                                      size: 50,
+                                    ),
+                                  ),
+                                ),
+                              ),
                             ),
-                          ),
+                            Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  ecard.titleCharged,
+                                  style: const TextStyle(
+                                    color: Color.fromRGBO(190, 190, 190, 1),
+                                    fontSize: 16,
+                                  ),
+                                ),
+                                const Text(
+                                  "Valid until",
+                                  style: TextStyle(
+                                    fontSize: 20,
+                                  ),
+                                ),
+                                Text(
+                                  ecard.validity,
+                                  style: const TextStyle(
+                                    fontSize: 20,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ],
                         ),
-                      ),
+                        const Icon(
+                          Icons.arrow_forward_ios,
+                          size: 25,
+                          color: Color.fromRGBO(156, 156, 156, 1),
+                        ),
+                      ],
                     ),
+                    const ValidityBarWidget(validityPercentage: 20),
                     Padding(
                       padding: const EdgeInsets.only(bottom: 12),
                       child: Container(
@@ -106,7 +144,7 @@ class ECardScreen extends StatelessWidget {
                           ),
                         ),
                       ),
-                    )
+                    ),
                   ],
                 ),
               ),
