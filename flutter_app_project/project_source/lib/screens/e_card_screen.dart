@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 import 'package:project_source/models/e_card_class.dart';
 import 'package:project_source/widgets/latest_trip_widget.dart';
@@ -5,7 +7,12 @@ import 'package:project_source/widgets/latest_trip_widget.dart';
 import '../widgets/ecard_widget.dart';
 
 class ECardScreen extends StatelessWidget {
-  const ECardScreen({super.key});
+  const ECardScreen({
+    super.key,
+    required this.ecard,
+  });
+
+  final Ecard ecard;
 
   @override
   Widget build(BuildContext context) {
@@ -17,24 +24,14 @@ class ECardScreen extends StatelessWidget {
             Align(
               alignment: Alignment.topCenter,
               child: EcardWidget(
-                ecard: Ecard(
-                  name: "Francesc",
-                  firstSurname: "Teruel",
-                  secondSurname: "Rodríguez",
-                  state: true,
-                  profile: "Youth",
-                  expiry: "10/24/2033",
-                  uid: "004 127 925HJ",
-                  titleCharged: "e-Youth",
-                  validity: "December 16th",
-                ),
+                ecard: ecard,
               ),
             ),
             Padding(
               padding: const EdgeInsets.only(top: 15.0),
               child: Container(
                 width: 450,
-                height: 200,
+                height: 220,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(15),
                   border: Border.all(
@@ -46,7 +43,38 @@ class ECardScreen extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   mainAxisAlignment: MainAxisAlignment.end,
                   children: [
-                    //const Text("Valid until"),
+                    const Text("Valid until"),
+                    Text(ecard.validity),
+                    Padding(
+                      padding: const EdgeInsets.only(
+                        left: 20,
+                        right: 20,
+                      ),
+                      child: Container(
+                        decoration: const BoxDecoration(
+                          shape: BoxShape.circle,
+                          color: Color.fromRGBO(64, 70, 136, 1),
+                        ),
+                        child: Transform.rotate(
+                          angle: 90 * pi / 180,
+                          child: const Padding(
+                            padding: EdgeInsets.all(8.0),
+                            child: Icon(
+                              Icons.confirmation_num,
+                              color: Colors.white,
+                              size: 50,
+                            ),
+                          ),
+                        ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 12),
+                      child: Container(
+                        height: 1,
+                        color: const Color.fromRGBO(209, 209, 209, 1),
+                      ),
+                    ),
                     Padding(
                       padding: const EdgeInsets.only(
                         bottom: 12,

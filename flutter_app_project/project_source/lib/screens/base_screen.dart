@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:project_source/models/e_card_class.dart';
 import 'package:project_source/screens/e_card_screen.dart';
 import 'package:project_source/screens/home_screen.dart';
 import 'package:project_source/screens/lines_screen.dart';
@@ -13,10 +14,22 @@ class BaseScreen extends StatefulWidget {
 class BaseScreenState extends State<BaseScreen> {
   int _selectedIndex = 0;
 
-  // Lista de pantallas
+  // List of screens
   final List<Widget> _screens = [
     const HomeScreen(),
-    const ECardScreen(),
+    ECardScreen(
+      ecard: Ecard(
+        name: "Francesc",
+        firstSurname: "Teruel",
+        secondSurname: "Rodríguez",
+        state: true,
+        profile: "Youth",
+        expiry: "10/24/2033",
+        uid: "004 127 925HJ",
+        titleCharged: "e-Youth",
+        validity: "December 16th",
+      ),
+    ),
     const LinesScreen(),
   ];
 
