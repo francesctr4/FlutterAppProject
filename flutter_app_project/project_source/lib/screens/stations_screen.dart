@@ -3,8 +3,8 @@ import 'package:project_source/api/line_stations_api.dart';
 import 'package:project_source/models/line_class.dart';
 import 'package:project_source/models/station_class.dart';
 
-import '../widgets/line_stations_container.dart';
-import '../widgets/station_list_item.dart';
+import '../widgets/stations_screen/line_stations_container.dart';
+import '../widgets/stations_screen/station_list_item.dart';
 
 class StationsScreen extends StatelessWidget {
   const StationsScreen({super.key});

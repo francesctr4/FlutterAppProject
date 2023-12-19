@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:project_source/models/e_card_class.dart';
-import 'package:project_source/widgets/ecard_latest_trip_widget.dart';
+import 'package:project_source/widgets/ecard_screen/ecard_latest_trip_widget.dart';
 import 'package:provider/provider.dart';
 
-import '../widgets/ecard_validity_widget.dart';
-import '../widgets/ecard_widget.dart';
+import '../widgets/ecard_screen/ecard_validity_widget.dart';
+import '../widgets/ecard_screen/ecard_widget.dart';
 
 class ECardScreen extends StatelessWidget {
   const ECardScreen({

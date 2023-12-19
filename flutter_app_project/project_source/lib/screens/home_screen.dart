@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import '../widgets/favorite_routes_widget.dart';
-import '../widgets/favorite_stations_widget.dart';
-import '../widgets/origin_destination_search_widget.dart';
+import '../widgets/home_screen/favorite_routes_widget.dart';
+import '../widgets/home_screen/favorite_stations_widget.dart';
+import '../widgets/home_screen/origin_destination_search_widget.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});

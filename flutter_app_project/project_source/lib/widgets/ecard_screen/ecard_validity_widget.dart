@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:project_source/models/e_card_class.dart';
-import 'package:project_source/widgets/ecard_validity_bar_widget.dart';
+import 'package:project_source/widgets/ecard_screen/ecard_validity_bar_widget.dart';
 
 import 'ecard_validity_main_row_widget.dart';
 import 'ecard_recharge_button_widget.dart';

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:project_source/api/line_api.dart';
 import 'package:project_source/models/line_class.dart';
-import 'package:project_source/widgets/line_list_item.dart';
+import 'package:project_source/widgets/lines_screen/line_list_item.dart';
 
 class LinesScreen extends StatelessWidget {
   const LinesScreen({super.key});

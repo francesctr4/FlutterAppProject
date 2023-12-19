@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:project_source/models/e_card_class.dart';
-import 'package:project_source/widgets/mta_logo_widget.dart';
+import 'package:project_source/widgets/ecard_screen/mta_logo_widget.dart';
 
 class EcardFrontContentsWidget extends StatelessWidget {
   const EcardFrontContentsWidget({
