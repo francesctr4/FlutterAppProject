@@ -25,6 +25,67 @@ class EcardWidget extends StatelessWidget {
           ],
         ),
       ),
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: [
+          Align(
+            alignment: Alignment.topLeft,
+            child: Container(
+              width: 40,
+              height: 40,
+              color: Colors.white,
+            ),
+          ),
+          const Center(
+            child: Text(
+              "e-Card",
+              style: TextStyle(
+                fontSize: 40,
+                fontWeight: FontWeight.bold,
+                color: Colors.white,
+              ),
+            ),
+          ),
+          const Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    "Francesc",
+                    style: TextStyle(
+                      color: Colors.white,
+                    ),
+                  ),
+                  Text(
+                    "Teruel Rodriguez",
+                    style: TextStyle(
+                      color: Colors.white,
+                    ),
+                  ),
+                ],
+              ),
+              Row(
+                children: [
+                  Icon(
+                    Icons.train,
+                    color: Colors.white,
+                  ),
+                  Icon(
+                    Icons.tram,
+                    color: Colors.white,
+                  ),
+                  Icon(
+                    Icons.directions_bus,
+                    color: Colors.white,
+                  ),
+                ],
+              ),
+            ],
+          ),
+        ],
+      ),
     );
   }
 }
