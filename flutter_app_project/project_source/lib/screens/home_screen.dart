@@ -5,22 +5,31 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    Size screenSize = MediaQuery.of(context).size;
     return SingleChildScrollView(
       child: Column(
         children: [
           SizedBox(
-            height: 700,
+            height: 650,
             child: Stack(
               alignment: Alignment.center,
               children: [
-                const Align(
+                Align(
                   alignment: Alignment.topCenter,
-                  child: Image(
-                    image: AssetImage("resources/Home_Screen_Train.png"),
+                  child: Container(
+                    width: screenSize.width,
+                    height: 300,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(15),
+                    ),
+                    child: Image.asset(
+                      'resources/Home_Screen_Train.png',
+                      fit: BoxFit.fitWidth,
+                    ),
                   ),
                 ),
                 Container(
-                  width: 400,
+                  width: screenSize.width - 100,
                   height: 200,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(15),
@@ -32,6 +41,70 @@ class HomeScreen extends StatelessWidget {
                         Color.fromRGBO(95, 109, 255, 1),
                       ],
                     ),
+                  ),
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.only(top: 20),
+                        child: Container(
+                          width: screenSize.width - 150,
+                          height: 50,
+                          decoration: const BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.only(
+                                topLeft: Radius.circular(15),
+                                topRight: Radius.circular(15)),
+                          ),
+                          child: const Align(
+                            alignment: Alignment.center,
+                            child: Text(
+                              'Origin',
+                            ),
+                          ),
+                        ),
+                      ),
+                      Container(
+                        width: screenSize.width - 150,
+                        height: 1,
+                        color: Colors.grey,
+                      ),
+                      Container(
+                        width: screenSize.width - 150,
+                        height: 50,
+                        decoration: const BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.only(
+                              bottomLeft: Radius.circular(15),
+                              bottomRight: Radius.circular(15)),
+                        ),
+                        child: const Align(
+                          alignment: Alignment.center,
+                          child: Text(
+                            'Destination',
+                          ),
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.all(18.0),
+                        child: Container(
+                          width: screenSize.width - 150,
+                          height: 40,
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(15),
+                            color: Color.fromARGB(255, 32, 40, 127),
+                          ),
+                          child: Align(
+                            alignment: Alignment.center,
+                            child: Text(
+                              'Search Combination',
+                              style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
                   ),
                 ),
               ],
