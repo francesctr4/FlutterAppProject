@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:project_source/models/e_card_class.dart';
+import 'package:project_source/widgets/mta_logo_widget.dart';
 
 class EcardWidget extends StatelessWidget {
   const EcardWidget({
@@ -25,64 +26,76 @@ class EcardWidget extends StatelessWidget {
           ],
         ),
       ),
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      child: const Stack(
         children: [
           Align(
             alignment: Alignment.topLeft,
-            child: Container(
-              width: 40,
-              height: 40,
-              color: Colors.white,
+            child: Padding(
+              padding: EdgeInsets.fromLTRB(30, 30, 0, 0),
+              child: MTALogoWidget(),
             ),
           ),
-          const Center(
+          Center(
             child: Text(
               "e-Card",
               style: TextStyle(
-                fontSize: 40,
+                fontSize: 60,
                 fontWeight: FontWeight.bold,
                 color: Colors.white,
               ),
             ),
           ),
-          const Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              Column(
+          Padding(
+            padding: EdgeInsets.fromLTRB(30, 0, 0, 30),
+            child: Align(
+              alignment: Alignment.bottomLeft,
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.end,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
                     "Francesc",
                     style: TextStyle(
                       color: Colors.white,
+                      fontSize: 22,
                     ),
                   ),
                   Text(
-                    "Teruel Rodriguez",
+                    "Teruel Rodríguez",
                     style: TextStyle(
                       color: Colors.white,
+                      fontSize: 22,
                     ),
                   ),
                 ],
               ),
-              Row(
+            ),
+          ),
+          Align(
+            alignment: Alignment.bottomCenter,
+            child: Padding(
+              padding: EdgeInsets.fromLTRB(0, 0, 30, 30),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.end,
                 children: [
                   Icon(
                     Icons.train,
                     color: Colors.white,
+                    size: 40,
                   ),
                   Icon(
                     Icons.tram,
                     color: Colors.white,
+                    size: 40,
                   ),
                   Icon(
                     Icons.directions_bus,
                     color: Colors.white,
+                    size: 40,
                   ),
                 ],
               ),
-            ],
+            ),
           ),
         ],
       ),
