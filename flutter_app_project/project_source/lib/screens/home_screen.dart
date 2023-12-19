@@ -18,7 +18,7 @@ class HomeScreen extends StatelessWidget {
                   alignment: Alignment.topCenter,
                   child: Container(
                     width: screenSize.width,
-                    height: 300,
+                    height: 400,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(15),
                     ),
@@ -29,7 +29,7 @@ class HomeScreen extends StatelessWidget {
                   ),
                 ),
                 Container(
-                  width: screenSize.width - 100,
+                  width: screenSize.width - 50,
                   height: 200,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(15),
@@ -49,7 +49,7 @@ class HomeScreen extends StatelessWidget {
                       Padding(
                         padding: const EdgeInsets.only(top: 20),
                         child: Container(
-                          width: screenSize.width - 150,
+                          width: screenSize.width - 100,
                           height: 50,
                           decoration: const BoxDecoration(
                             color: Colors.white,
@@ -66,12 +66,12 @@ class HomeScreen extends StatelessWidget {
                         ),
                       ),
                       Container(
-                        width: screenSize.width - 150,
+                        width: screenSize.width - 100,
                         height: 1,
                         color: Colors.grey,
                       ),
                       Container(
-                        width: screenSize.width - 150,
+                        width: screenSize.width - 100,
                         height: 50,
                         decoration: const BoxDecoration(
                           color: Colors.white,
@@ -88,18 +88,19 @@ class HomeScreen extends StatelessWidget {
                       ),
                       Padding(
                         padding: const EdgeInsets.all(18.0),
-                        child: Container(
-                          width: screenSize.width - 150,
-                          height: 40,
-                          decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(15),
-                            color: Color.fromARGB(255, 32, 40, 127),
+                        child: ElevatedButton(
+                          onPressed: () {},
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: Color.fromARGB(255, 32, 40, 127),
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(18.0),
+                            ),
                           ),
-                          child: Align(
-                            alignment: Alignment.center,
-                            child: Text(
-                              'Search Combination',
-                              style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold),
+                          child: const Text(
+                            'Search Combination',
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold,
                             ),
                           ),
                         ),
