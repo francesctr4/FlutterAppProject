@@ -27,9 +27,12 @@ class _EcardWidgetState extends State<EcardWidget> {
           ecardReverse = !ecardReverse;
         });
       },
-      child: ecardReverse
-          ? const EcardReverseContentsWidget()
-          : const EcardFrontContentsWidget(),
+      child: AnimatedSwitcher(
+        duration: const Duration(milliseconds: 200),
+        child: ecardReverse
+            ? EcardReverseContentsWidget(ecard: widget.ecard)
+            : EcardFrontContentsWidget(ecard: widget.ecard),
+      ),
     );
   }
 }

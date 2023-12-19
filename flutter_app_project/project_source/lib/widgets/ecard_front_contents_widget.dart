@@ -1,10 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:project_source/models/e_card_class.dart';
 import 'package:project_source/widgets/mta_logo_widget.dart';
 
 class EcardFrontContentsWidget extends StatelessWidget {
   const EcardFrontContentsWidget({
     super.key,
+    required this.ecard,
   });
+
+  final Ecard ecard;
 
   @override
   Widget build(BuildContext context) {
@@ -22,16 +26,16 @@ class EcardFrontContentsWidget extends StatelessWidget {
           ],
         ),
       ),
-      child: const Stack(
+      child: Stack(
         children: [
-          Align(
+          const Align(
             alignment: Alignment.topLeft,
             child: Padding(
               padding: EdgeInsets.fromLTRB(30, 30, 0, 0),
               child: MTALogoWidget(),
             ),
           ),
-          Center(
+          const Center(
             child: Text(
               "e-Card",
               style: TextStyle(
@@ -42,7 +46,7 @@ class EcardFrontContentsWidget extends StatelessWidget {
             ),
           ),
           Padding(
-            padding: EdgeInsets.fromLTRB(30, 0, 0, 30),
+            padding: const EdgeInsets.fromLTRB(30, 0, 0, 30),
             child: Align(
               alignment: Alignment.bottomLeft,
               child: Column(
@@ -50,15 +54,15 @@ class EcardFrontContentsWidget extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    "Francesc",
-                    style: TextStyle(
+                    ecard.name,
+                    style: const TextStyle(
                       color: Colors.white,
                       fontSize: 22,
                     ),
                   ),
                   Text(
-                    "Teruel Rodríguez",
-                    style: TextStyle(
+                    "${ecard.firstSurname} ${ecard.secondSurname}",
+                    style: const TextStyle(
                       color: Colors.white,
                       fontSize: 22,
                     ),
@@ -67,7 +71,7 @@ class EcardFrontContentsWidget extends StatelessWidget {
               ),
             ),
           ),
-          Align(
+          const Align(
             alignment: Alignment.bottomCenter,
             child: Padding(
               padding: EdgeInsets.fromLTRB(0, 0, 30, 30),
