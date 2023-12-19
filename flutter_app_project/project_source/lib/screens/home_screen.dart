@@ -5,15 +5,35 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const SingleChildScrollView(
+    return SingleChildScrollView(
       child: Column(
         children: [
           SizedBox(
-            width: 500,
-            height: 300,
+            height: 700,
             child: Stack(
+              alignment: Alignment.center,
               children: [
-                Image(image: AssetImage("resources/Home_Screen_Train.png")),
+                const Align(
+                  alignment: Alignment.topCenter,
+                  child: Image(
+                    image: AssetImage("resources/Home_Screen_Train.png"),
+                  ),
+                ),
+                Container(
+                  width: 400,
+                  height: 200,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(15),
+                    gradient: const LinearGradient(
+                      begin: Alignment(0.0, 1.0),
+                      end: Alignment(1.0, 0.0),
+                      colors: <Color>[
+                        Color.fromRGBO(64, 70, 136, 1),
+                        Color.fromRGBO(95, 109, 255, 1),
+                      ],
+                    ),
+                  ),
+                ),
               ],
             ),
           ),
