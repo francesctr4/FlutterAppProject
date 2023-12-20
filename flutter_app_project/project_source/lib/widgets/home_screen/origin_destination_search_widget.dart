@@ -30,19 +30,27 @@ class OriginDestinationSearchWidget extends StatelessWidget {
         children: [
           Padding(
             padding: const EdgeInsets.only(top: 20),
-            child: Container(
-              width: screenSize.width - 100,
-              height: 50,
-              decoration: const BoxDecoration(
-                color: Colors.white,
-                borderRadius: BorderRadius.only(
-                    topLeft: Radius.circular(15),
-                    topRight: Radius.circular(15)),
-              ),
-              child: const Align(
-                alignment: Alignment.center,
-                child: Text(
-                  'Origin',
+            child: GestureDetector(
+              onTap: () {
+                Navigator.of(context).pushNamed(
+                  "/combinationsScreen",
+                  arguments: "Origin",
+                );
+              },
+              child: Container(
+                width: screenSize.width - 100,
+                height: 50,
+                decoration: const BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.only(
+                      topLeft: Radius.circular(15),
+                      topRight: Radius.circular(15)),
+                ),
+                child: const Align(
+                  alignment: Alignment.center,
+                  child: Text(
+                    'Origin',
+                  ),
                 ),
               ),
             ),
@@ -52,19 +60,27 @@ class OriginDestinationSearchWidget extends StatelessWidget {
             height: 1,
             color: Colors.grey,
           ),
-          Container(
-            width: screenSize.width - 100,
-            height: 50,
-            decoration: const BoxDecoration(
-              color: Colors.white,
-              borderRadius: BorderRadius.only(
-                  bottomLeft: Radius.circular(15),
-                  bottomRight: Radius.circular(15)),
-            ),
-            child: const Align(
-              alignment: Alignment.center,
-              child: Text(
-                'Destination',
+          GestureDetector(
+            onTap: () {
+              Navigator.of(context).pushNamed(
+                "/combinationsScreen",
+                arguments: "Destination",
+              );
+            },
+            child: Container(
+              width: screenSize.width - 100,
+              height: 50,
+              decoration: const BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.only(
+                    bottomLeft: Radius.circular(15),
+                    bottomRight: Radius.circular(15)),
+              ),
+              child: const Align(
+                alignment: Alignment.center,
+                child: Text(
+                  'Destination',
+                ),
               ),
             ),
           ),

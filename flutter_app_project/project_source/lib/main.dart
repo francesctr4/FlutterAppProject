@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:project_source/screens/base_screen.dart';
+import 'package:project_source/screens/combinations_screen.dart';
 
 import 'screens/stations_screen.dart';
 
@@ -16,6 +17,8 @@ class MyApp extends StatelessWidget {
       routes: {
         "/": (context) => const BaseScreen(), // Home, e-Card, Lines
         "/stationsScreen": (context) => const StationsScreen(), // From Lines
+        "/combinationsScreen": (context) =>
+            const CombinationsScreen(), // From Home
       },
     );
   }
