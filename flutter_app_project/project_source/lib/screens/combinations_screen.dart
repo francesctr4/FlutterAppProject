@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:project_source/api/combinations_api.dart';
+import 'package:project_source/models/station_home_class.dart';
+import 'package:project_source/widgets/combinations_screen/combinations_list_item.dart';
 
 class CombinationsScreen extends StatelessWidget {
   const CombinationsScreen({super.key});
@@ -48,6 +51,35 @@ class _CombinationsScreenImplementationState
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(30),
             color: Colors.white,
+          ),
+          child: FutureBuilder(
+            future: apiLoadAllStations(),
+            builder: (BuildContext context,
+                AsyncSnapshot<List<StationHome>> snapshot) {
+              if (!snapshot.hasData) {
+                return const Center(
+                  child: CircularProgressIndicator(),
+                );
+              }
+              final stationList = snapshot.data!;
+              return Container(
+                margin: const EdgeInsets.fromLTRB(50, 135, 50, 0),
+                child: ListView.separated(
+                  itemCount: stationList.length,
+                  itemBuilder: (BuildContext context, int index) {
+                    stationList.sort(
+                        (a, b) => a.stationName!.compareTo(b.stationName!));
+                    return CombinationsListItem(station: stationList[index]);
+                  },
+                  separatorBuilder: (context, index) {
+                    return const Divider(
+                      thickness: 2,
+                      height: 2,
+                    );
+                  },
+                ),
+              );
+            },
           ),
         ),
       ),
