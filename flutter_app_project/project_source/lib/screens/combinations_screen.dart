@@ -28,6 +28,17 @@ class _CombinationsScreenImplementation extends StatefulWidget {
 
 class _CombinationsScreenImplementationState
     extends State<_CombinationsScreenImplementation> {
+  TextEditingController searchTextController = TextEditingController();
+  String filter = "";
+
+  @override
+  void dispose() {
+    searchTextController.dispose();
+    super.dispose();
+  }
+
+  void searchStation(String query) {}
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -52,34 +63,63 @@ class _CombinationsScreenImplementationState
             borderRadius: BorderRadius.circular(30),
             color: Colors.white,
           ),
-          child: FutureBuilder(
-            future: apiLoadAllStations(),
-            builder: (BuildContext context,
-                AsyncSnapshot<List<StationHome>> snapshot) {
-              if (!snapshot.hasData) {
-                return const Center(
-                  child: CircularProgressIndicator(),
-                );
-              }
-              final stationList = snapshot.data!;
-              return Container(
-                margin: const EdgeInsets.fromLTRB(50, 135, 50, 0),
-                child: ListView.separated(
-                  itemCount: stationList.length,
-                  itemBuilder: (BuildContext context, int index) {
-                    stationList.sort(
-                        (a, b) => a.stationName!.compareTo(b.stationName!));
-                    return CombinationsListItem(station: stationList[index]);
+          child: Stack(
+            children: [
+              Padding(
+                padding: const EdgeInsets.fromLTRB(50, 40, 50, 0),
+                child: TextField(
+                  controller: searchTextController,
+                  onChanged: (value) {
+                    setState(() {
+                      filter = value;
+                    });
                   },
-                  separatorBuilder: (context, index) {
-                    return const Divider(
-                      thickness: 2,
-                      height: 2,
-                    );
-                  },
+                  decoration: const InputDecoration(
+                    hintText: 'Search station...',
+                  ),
                 ),
-              );
-            },
+              ),
+              FutureBuilder(
+                future: apiLoadAllStations(),
+                builder: (BuildContext context,
+                    AsyncSnapshot<List<StationHome>> snapshot) {
+                  if (!snapshot.hasData) {
+                    return const Center(
+                      child: CircularProgressIndicator(),
+                    );
+                  }
+                  var stationList = snapshot.data!;
+
+                  final filteredList = stationList.where((station) {
+                    final name = station.stationName!.toLowerCase();
+                    final input = filter.toLowerCase();
+                    return name.contains(input);
+                  }).toList();
+
+                  stationList = filteredList;
+
+                  return Container(
+                    margin: const EdgeInsets.fromLTRB(50, 135, 50, 0),
+                    child: ListView.separated(
+                      itemCount: stationList.length,
+                      itemBuilder: (BuildContext context, int index) {
+                        stationList.sort(
+                            (a, b) => a.stationName!.compareTo(b.stationName!));
+                        return CombinationsListItem(
+                          station: stationList[index],
+                        );
+                      },
+                      separatorBuilder: (context, index) {
+                        return const Divider(
+                          thickness: 2,
+                          height: 2,
+                        );
+                      },
+                    ),
+                  );
+                },
+              ),
+            ],
           ),
         ),
       ),
