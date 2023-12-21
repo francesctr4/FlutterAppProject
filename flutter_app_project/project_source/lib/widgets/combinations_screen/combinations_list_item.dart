@@ -11,15 +11,20 @@ class CombinationsListItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ListTile(
-      title: Text(
-        "${station.stationName}",
-        style: const TextStyle(
-          fontSize: 25,
-          fontWeight: FontWeight.bold,
+    return GestureDetector(
+      onTap: () {
+        Navigator.of(context).pop(station);
+      },
+      child: ListTile(
+        title: Text(
+          "${station.stationName}",
+          style: const TextStyle(
+            fontSize: 25,
+            fontWeight: FontWeight.bold,
+          ),
         ),
+        contentPadding: const EdgeInsets.all(10),
       ),
-      contentPadding: const EdgeInsets.all(10),
     );
   }
 }

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:project_source/models/station_home_class.dart';
 
-class OriginDestinationSearchWidget extends StatelessWidget {
+class OriginDestinationSearchWidget extends StatefulWidget {
   const OriginDestinationSearchWidget({
     super.key,
     required this.screenSize,
@@ -9,9 +10,18 @@ class OriginDestinationSearchWidget extends StatelessWidget {
   final Size screenSize;
 
   @override
+  State<OriginDestinationSearchWidget> createState() =>
+      _OriginDestinationSearchWidgetState();
+}
+
+class _OriginDestinationSearchWidgetState
+    extends State<OriginDestinationSearchWidget> {
+  String originStationName = "Origin";
+  String destinationStationName = "Destination";
+  @override
   Widget build(BuildContext context) {
     return Container(
-      width: screenSize.width - 50,
+      width: widget.screenSize.width - 50,
       height: 200,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(15),
@@ -32,13 +42,23 @@ class OriginDestinationSearchWidget extends StatelessWidget {
             padding: const EdgeInsets.only(top: 20),
             child: GestureDetector(
               onTap: () {
-                Navigator.of(context).pushNamed(
+                final result = Navigator.of(context).pushNamed(
                   "/combinationsScreen",
                   arguments: "Origin",
                 );
+                result.then(
+                  (station) {
+                    if (station != null) {
+                      final originStation = station as StationHome;
+                      setState(() {
+                        originStationName = originStation.stationName!;
+                      });
+                    }
+                  },
+                );
               },
               child: Container(
-                width: screenSize.width - 100,
+                width: widget.screenSize.width - 100,
                 height: 50,
                 decoration: const BoxDecoration(
                   color: Colors.white,
@@ -46,29 +66,47 @@ class OriginDestinationSearchWidget extends StatelessWidget {
                       topLeft: Radius.circular(15),
                       topRight: Radius.circular(15)),
                 ),
-                child: const Align(
+                child: Align(
                   alignment: Alignment.center,
-                  child: Text(
-                    'Origin',
-                  ),
+                  child: originStationName == "Origin"
+                      ? Text(
+                          originStationName,
+                        )
+                      : Text(
+                          originStationName,
+                          style: const TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 20,
+                          ),
+                        ),
                 ),
               ),
             ),
           ),
           Container(
-            width: screenSize.width - 100,
+            width: widget.screenSize.width - 100,
             height: 1,
             color: Colors.grey,
           ),
           GestureDetector(
             onTap: () {
-              Navigator.of(context).pushNamed(
+              final result = Navigator.of(context).pushNamed(
                 "/combinationsScreen",
                 arguments: "Destination",
               );
+              result.then(
+                (station) {
+                  if (station != null) {
+                    final destinationStation = station as StationHome;
+                    setState(() {
+                      destinationStationName = destinationStation.stationName!;
+                    });
+                  }
+                },
+              );
             },
             child: Container(
-              width: screenSize.width - 100,
+              width: widget.screenSize.width - 100,
               height: 50,
               decoration: const BoxDecoration(
                 color: Colors.white,
@@ -76,18 +114,26 @@ class OriginDestinationSearchWidget extends StatelessWidget {
                     bottomLeft: Radius.circular(15),
                     bottomRight: Radius.circular(15)),
               ),
-              child: const Align(
+              child: Align(
                 alignment: Alignment.center,
-                child: Text(
-                  'Destination',
-                ),
+                child: destinationStationName == "Destination"
+                    ? Text(
+                        destinationStationName,
+                      )
+                    : Text(
+                        destinationStationName,
+                        style: const TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 20,
+                        ),
+                      ),
               ),
             ),
           ),
           Padding(
             padding: const EdgeInsets.only(top: 18, left: 26, right: 26),
             child: SizedBox(
-              width: screenSize.width,
+              width: widget.screenSize.width,
               height: 36,
               child: ElevatedButton(
                 onPressed: () {},
