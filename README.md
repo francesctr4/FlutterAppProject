@@ -22,13 +22,24 @@ _**Mario García Sutil**_
 
 ### Functionality
 
-This app has similar functions as the public transport apps out there. It has three main sections: Home, e-Card and Lines.
+This app has similar functionality as the common public transport apps out there. It has three main sections: Home, e-Card and Lines.
 
 #### Home Screen
 
+In this screen, the user can search for a metro combination to go from an origin station to a destination station and can see their favorite
+combinations (routes) and stations. The actual search and adding to favorites is only aesthetic, but you can click on origin/destination to
+go to the Combinations Screen, where there is a list with all the stations that make up all the lines. You can also search for an specific station.
+Clicking on one will pop the screen back to Home Screen and will assign the station to the respective slot.
+
 #### e-Card Screen
 
+This screen shows an alternative version of "T-mobilitat", where you can see your charged title and information about latest trip and 
+validity of the ticket. If you press on the card, you will reverse it, showing more info about the user.
+
 #### Lines Screen
+
+In this screen it is desplayed an ordered list of all existing lines, according to TMB. If you click on one, you will move to
+Stations Screen, where you can see another ordered list of all the stations in the selected line.
 
 ---
 
